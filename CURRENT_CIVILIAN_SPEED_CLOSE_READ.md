@@ -34,6 +34,10 @@ It records one airline-service row, three certified in-service business-aviation
 rows, a highest published and service-anchored subsonic Mach of 0.95, and zero
 speed-frontier practical passes.
 
+The separate [`CURRENT_SPEED_EVIDENCE_BASIS.md`](CURRENT_SPEED_EVIDENCE_BASIS.md)
+ledger records which rows have explicit cruise wording versus only a top or
+maximum-speed wording.
+
 ## Reproducibility
 
 ```text

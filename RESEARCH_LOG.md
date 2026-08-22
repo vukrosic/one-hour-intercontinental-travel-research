@@ -122,6 +122,13 @@
 - Limitation: the Global 8000 evidence is a current certified business-aircraft reference, not airline capacity, normal-cruise performance, economics, passenger acceptance, noise compliance, or a universal fastest-practical ranking. The Mach 0.95 claim is a top-speed reference.
 - Next hypothesis: compare top-speed and explicit high-speed-cruise records across the current business-aviation anchors before using any value in passenger-time or energy modeling.
 
+## 2026-08-22 — Phase 41: top-speed versus cruise wording guard
+
+- Added `CURRENT_SPEED_EVIDENCE_BASIS.md` and an independently checked four-row ledger separating top/maximum-speed wording from explicit high-speed, long-range, or typical-cruise wording.
+- Result: three rows have a top/max value, three have an explicit cruise value, and only one selected row (the G700) has both a top/max and explicit high-speed-cruise value. The highest top/max value is Mach 0.95; the highest explicit cruise value in the selected records is Mach 0.90.
+- Limitation: “not reported” means absent from the selected public record, not physically absent. The table is a source-role guard and does not infer operating practice, range, energy, or a design.
+- Next hypothesis: re-label future time and energy comparisons by speed basis and prefer explicit cruise values when the question concerns repeatable passenger service.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

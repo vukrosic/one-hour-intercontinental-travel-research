@@ -27,6 +27,11 @@ airborne-time savings in this screen, while the historical Mach 2 class yields
 57.5%. These are ratios at fixed Mach and a common ideal sound-speed bracket,
 not promises about actual flights.
 
+`CURRENT_SPEED_EVIDENCE_BASIS.md` adds the necessary wording guard: the
+Global 8000's Mach 0.95 entry is a top-speed record, while the selected G700
+record is the only current row in this small table with an explicitly named
+high-speed-cruise value.
+
 ## Reproducibility
 
 ```text

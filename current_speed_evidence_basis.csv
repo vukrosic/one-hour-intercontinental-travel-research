@@ -1,0 +1,5 @@
+entry_id,aircraft_class,service_state,top_or_max_mach,explicit_high_speed_cruise_mach,explicit_long_range_or_typical_cruise_mach,speed_source_id,interpretation
+SPEED-001,Boeing 787,current_airline_service,not_reported,not_reported,0.850,BOEING_787_SPEED_2024,"Selected public record supplies an explicit Mach 0.85 cruise reference; no top/max Mach is used here."
+SPEED-002,Bombardier Global 7500,current_certified_in_service,0.925,not_reported,0.850,BOMBARDIER_GLOBAL7500_EPD,"Selected public EPD supplies a Mach 0.925 top-speed record and a Mach 0.85 cruise mission assumption; an explicit high-speed-cruise value is not claimed from this source."
+SPEED-003,Gulfstream G700,current_certified_in_service,0.935,0.900,0.850,GULFSTREAM_G700_2026,"Selected public product record separates Mach 0.935 maximum operating Mach, Mach 0.90 high-speed cruise, and Mach 0.85 long-range cruise."
+SPEED-004,Bombardier Global 8000,current_certified_in_service,0.950,not_reported,not_reported,BOMBARDIER_GLOBAL8000_SPEED_2026,"Selected public certification announcement supplies a Mach 0.95 top-speed record; an explicit cruise value is not claimed from this source."
