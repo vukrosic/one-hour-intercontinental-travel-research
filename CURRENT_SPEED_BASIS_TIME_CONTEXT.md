@@ -43,3 +43,6 @@ metrics within `1e-12`.
 - Top/max values are not silently treated as repeatable cruise values.
 - Missing cruise values remain missing; no value is inferred from a competitor,
   a brochure, or a conceptual assumption.
+- The companion [`CURRENT_SPEED_BASIS_BURDEN_CONTEXT.md`](CURRENT_SPEED_BASIS_BURDEN_CONTEXT.md)
+  applies the repository's dimensionless kinetic and ideal-thermal proxies to
+  the same rows, with the same evidence-basis labels.

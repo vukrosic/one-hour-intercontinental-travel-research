@@ -138,6 +138,14 @@
 - Limitation: the screen still excludes winds, routing, climb/descent, acceleration, fuel burn, load factor, noise, passenger comfort, and airport constraints.
 - Next hypothesis: add an energy-per-passenger comparison keyed to the same speed-basis labels, keeping top/max rows visibly conditional and explicit-cruise rows separate.
 
+## 2026-08-22 — Phase 43: speed-basis dimensionless burden screen
+
+- Applied the existing (M^2) kinetic-energy-per-mass proxy and ideal gamma=1.4 total/static-temperature relation to the seven speed-basis rows.
+- Result: top/max rows reach a 1.249x kinetic-energy proxy and 1.1805 temperature ratio versus the Mach 0.85 reference; explicit-cruise rows reach 1.121x and 1.1620. For the G700, the top/max proxy is 1.210x versus 1.121x at the explicitly named Mach 0.90 high-speed cruise.
+- Independent arithmetic and the full test suite pass (125 tests).
+- Limitation: these are dimensionless trend indicators, not fuel burn, drag power, heat flux, wall temperature, materials, or a candidate-aircraft model.
+- Next hypothesis: connect the speed-basis labels to empirical passenger-energy and noise evidence, preserving missing data as unresolved rather than fitting a notional design.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

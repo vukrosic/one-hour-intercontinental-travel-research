@@ -1,0 +1,10 @@
+metric,value
+current_speed_basis_burden_context_rows,7
+top_or_max_rows,3
+explicit_cruise_rows,4
+highest_top_or_max_ke_proxy,1.2491349480968859
+highest_explicit_cruise_ke_proxy,1.1211072664359862
+highest_top_or_max_temperature_ratio,1.1804999999999999
+highest_explicit_cruise_temperature_ratio,1.162
+g700_top_ke_proxy,1.2100000000000002
+g700_high_cruise_ke_proxy,1.1211072664359862

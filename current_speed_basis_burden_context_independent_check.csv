@@ -1,0 +1,10 @@
+metric,independent_value,reference_value,absolute_delta,pass
+current_speed_basis_burden_context_rows,7,7,0,True
+top_or_max_rows,3,3,0,True
+explicit_cruise_rows,4,4,0,True
+highest_top_or_max_ke_proxy,1.2491349480968859,1.2491349480968859,0.0,True
+highest_explicit_cruise_ke_proxy,1.1211072664359862,1.1211072664359862,0.0,True
+highest_top_or_max_temperature_ratio,1.1804999999999999,1.1804999999999999,0.0,True
+highest_explicit_cruise_temperature_ratio,1.162,1.162,0.0,True
+g700_top_ke_proxy,1.2100000000000002,1.2100000000000002,0.0,True
+g700_high_cruise_ke_proxy,1.1211072664359862,1.1211072664359862,0.0,True
