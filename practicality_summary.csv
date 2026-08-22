@@ -1,0 +1,9 @@
+metric,value
+speed_class_rows,4
+current_practical_pass_rows,0
+current_baseline_not_ranked_rows,1
+historical_anchor_not_current_practical_pass_rows,1
+conceptual_unresolved_rows,2
+contradicted_gate_cells,1
+adverse_historical_gate_cells,1
+classes_with_no_service_anchor,2

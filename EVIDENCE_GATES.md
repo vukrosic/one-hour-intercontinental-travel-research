@@ -22,4 +22,4 @@ Status vocabulary:
 
 ## Current synthesis
 
-Mach 2 is the fastest speed class in this repository with direct historical scheduled passenger-service evidence. Speeds above Mach 2 remain conceptual comparison bins, not practical candidates, until the thermal, noise, passenger, energy/economics, airport, and verification gates have credible public evidence. This is a status statement, not a claim that Mach 2 is optimal or that higher speeds are impossible.
+Mach 2 is the fastest speed class in this repository with direct historical scheduled passenger-service evidence. The cross-gate screen in `PRACTICALITY_MATRIX.md` records zero current practical passes: Mach 2 remains a historical anchor with an adverse energy comparison and unresolved gates, while Mach 3 and Mach 5 remain conceptual bins without a service anchor. This is an evidence-status statement, not a claim that Mach 2 is optimal or that higher speeds are impossible.

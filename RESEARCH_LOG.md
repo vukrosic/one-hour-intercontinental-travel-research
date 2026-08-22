@@ -65,3 +65,11 @@
 - Evidence-gap result: zero current generic high-speed compatibility passes; historical Mach 2 service is selective precedent only.
 - Preserved the non-actionable boundary by excluding dimensions, runway calculations, loads, rescue indices, airport assessments, and procedures.
 - Next hypothesis: airport compatibility should remain a conjunctive gate rather than a speed-only scalar constraint.
+
+## 2026-08-22 — Phase 9: cross-gate practicality matrix
+
+- Added `practicality_matrix.csv` and a validating summary script that compare four abstract speed classes without assigning a weighted practicality score.
+- Result: zero current practical passes; Mach 0.85 is retained as a current-service reference, Mach 2 as a historical anchor with one contradicted and one adverse gate, and Mach 3/Mach 5 as unresolved conceptual bins.
+- Reproducibility gate: 27 unit tests pass, including explicit checks that Mach 2 energy/climate is contradicted versus the selected modern benchmark and that both faster conceptual bins lack a service anchor.
+- Limitation: the matrix inherits the evidence maturity and comparability limits of each underlying audit; it does not prove impossibility or rank designs.
+- Next hypothesis: an independently reproduced Mach 2 energy comparison is the highest-value next check before adding more speed bins.
