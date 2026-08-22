@@ -31,3 +31,11 @@
 - Result: public transport-aircraft sources provide quantitative cabin requirements, but this pass found zero supported high-speed-specific passenger comfort thresholds.
 - Negative/evidence-gap result: the passenger gate cannot yet verify practicality above Mach 2; general certification requirements are necessary but insufficient.
 - Next hypothesis: aerospace-medicine and ride-quality literature may supply transferable thresholds, but their applicability must be demonstrated rather than assumed.
+
+## 2026-08-22 — Phase 5: noise and sonic-boom evidence maturity
+
+- Added a dated noise evidence table separating current rules, proposals, prospective standards, developing standards, and empirical programmes.
+- Added a validator that prevents proposed policy or ongoing research from being counted as a final practicality pass.
+- Result: the U.S. prohibition remains current while a July 2026 NPRM proposes a noise-based replacement; ICAO en-route certification and NASA community-response evidence are still developing.
+- Negative/evidence-maturity result: zero audited rows demonstrate a final high-speed pass threshold or commercial community acceptance.
+- Next hypothesis: noise remains a binding practicality gate above Mach 1 until final standards and community-response evidence mature.
