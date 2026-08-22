@@ -1,0 +1,9 @@
+metric,value
+historical_service_close_read_rows,3
+direct_scheduled_service_rows,1
+limited_airline_service_rows,1
+research_only_follow_on_rows,1
+historical_service_anchor_rows,2
+historical_service_anchor_speed_classes,1
+current_service_rows,0
+current_practical_pass_rows,0

@@ -2,7 +2,7 @@
 
 ## Question
 
-How does the only historical Mach 2 passenger-service anchor compare with a modern long-haul aggregate on direct fuel energy and CO2 per passenger-distance?
+How does the historical Mach 2 passenger-service class compare with a modern long-haul aggregate on direct fuel energy and CO2 per passenger-distance?
 
 ## Method
 

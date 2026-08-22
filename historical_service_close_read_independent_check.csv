@@ -1,0 +1,9 @@
+metric,independent_value,reference_value,pass
+historical_service_close_read_rows,3,3,True
+direct_scheduled_service_rows,1,1,True
+limited_airline_service_rows,1,1,True
+research_only_follow_on_rows,1,1,True
+historical_service_anchor_rows,2,2,True
+historical_service_anchor_speed_classes,1,1,True
+current_service_rows,0,0,True
+current_practical_pass_rows,0,0,True

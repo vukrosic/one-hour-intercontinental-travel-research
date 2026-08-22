@@ -27,7 +27,7 @@ The audit records whether each determination requires candidate aircraft charact
 
 ## Reproducible result
 
-The audit contains seven rows: four established compatibility frameworks, one historical-service precedent, one prospective standard, and one explicit evidence gap. Six rows require candidate characteristics. It contains **zero current generic high-speed compatibility passes**.
+The audit contains seven rows: four established compatibility frameworks, one Concorde historical-airport precedent, one prospective standard, and one explicit evidence gap. Six rows require candidate characteristics. It contains **zero current generic high-speed compatibility passes**. This airport-specific precedent is separate from the broader passenger-service history in `HISTORICAL_SERVICE_CLOSE_READ.md`.
 
 The source close read in [AIRPORT_COMPATIBILITY_CLOSE_READ.md](AIRPORT_COMPATIBILITY_CLOSE_READ.md)
 rechecks four framework records, one historical precedent, and one prospective

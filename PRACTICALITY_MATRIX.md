@@ -5,7 +5,7 @@
 This is the next bounded research artifact for the question **what is the fastest practical civilian passenger airplane?** It translates the repository's separate evidence gates into a transparent comparison of four abstract speed classes:
 
 - a current commercial reference near Mach 0.85;
-- the historical Concorde Mach 2 anchor; and
+- the historical Mach 2 service anchor (sustained Concorde plus limited Tu-144 service); and
 - Mach 3 and Mach 5 conceptual comparison bins.
 
 The bins are not aircraft specifications. They do not imply a route, vehicle layout, propulsion system, material, trajectory, or operating procedure.
@@ -36,7 +36,7 @@ classes_with_no_service_anchor=2
 The current evidence hierarchy is therefore:
 
 1. **Mach 0.85 reference:** a current-service baseline, not a claim that it is the fastest practical class.
-2. **Mach 2:** the fastest class with direct historical scheduled-service evidence, but not a current practicality pass because energy/climate is contradicted versus the selected modern benchmark and multiple gates remain unresolved or historically adverse.
+2. **Mach 2:** the only class with direct historical passenger-service evidence (sustained Concorde and limited Tu-144 service), but not a current practicality pass because energy/climate is contradicted versus the selected modern benchmark and multiple gates remain unresolved or historically adverse.
 3. **Mach 3 and Mach 5:** conceptual bins with arithmetic time benefit but no passenger-service anchor and no complete evidence across thermal, noise, energy, economics, or airport compatibility.
 
 ## Plain-language conclusion

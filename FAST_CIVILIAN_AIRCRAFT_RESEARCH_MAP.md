@@ -6,7 +6,7 @@ The primary question is: **what is the fastest practical civilian passenger airp
 
 ## Benchmark anchors
 
-- **Concorde:** the British Airways historical record lists a 1,350 mph (2,160 km/h, Mach 2) cruise and notes extensive testing before passenger certification. It is the central historical commercial benchmark, not a template to reproduce.
+- **Historical Mach 2 service:** British Airways documents Concorde's sustained passenger service at 1,350 mph (2,160 km/h, Mach 2), while NASA documents a separate, limited Tu-144 airline passenger service that ended after 102 flights. `HISTORICAL_SERVICE_CLOSE_READ.md` keeps the durable Concorde precedent separate from the limited Tu-144 record and from later research-only Tu-144LL flights. These are historical anchors, not templates to reproduce.
 - **NASA X-59 / Quesst:** NASA describes X-59 as a research aircraft intended to collect community-response and acoustic data for future quiet-supersonic rules. It is evidence that noise acceptance is an unresolved verification gate, not evidence of commercial readiness.
 - **Regulatory context:** FAA material records that civil supersonic flight over land in the United States has been prohibited since 1973, while current research may inform future rulemaking.
 
@@ -30,7 +30,7 @@ The model deliberately does not estimate lift, drag, heating, engine performance
 
 ## Current finding
 
-Speed alone is not the research conclusion. A Concorde-like cruise materially reduces airborne time, but the fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
+Speed alone is not the research conclusion. A Mach 2-class cruise materially reduces airborne time and has the only direct passenger-service precedent in this ledger, but the fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
 
 ## Next bounded experiments
 

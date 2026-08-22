@@ -225,6 +225,14 @@
 - Limitation: framework existence cannot close a candidate- and aerodrome-specific compatibility gap.
 - Next hypothesis: preserve airport compatibility as a conjunctive gate and avoid generating candidate characteristics to force a pass.
 
+## 2026-08-22 — Phase 31: historical passenger-service anchor close read
+
+- Audited the historical-service premise against British Airways' Concorde record and NASA's Tu-144 development-history fact sheet.
+- Correction: Concorde was not the only first-generation supersonic transport to reach passenger service. NASA records a separate Tu-144 airline service that ended after 102 passenger flights; the later Tu-144LL programme was research-only.
+- Added `HISTORICAL_SERVICE_CLOSE_READ.md` and a structured, independently checked evidence ledger. It records two historical service anchors in one speed class (Mach 2), one research-only follow-on row, zero current-service rows, and zero current practical passes.
+- Limitation: historical service duration and scale are not current certification, market, passenger-acceptance, energy, noise, or airport evidence; no route, design, or operational detail is inferred.
+- Next hypothesis: retain Mach 2 as the highest directly service-anchored speed class while looking for comparable public evidence before adding or promoting any faster class.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
