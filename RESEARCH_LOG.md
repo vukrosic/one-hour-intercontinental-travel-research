@@ -94,3 +94,10 @@
 - Result: all six Mach-bin rows pass at an absolute tolerance of `1e-12`; the diminishing-return trend is independently reproduced.
 - Verification boundary: this remains a dimensionless arithmetic screen and does not validate aerodynamic, propulsion, thermal, noise, passenger, or economic proxies.
 - Next hypothesis: independently reproduce the airport-compatibility summary and then add source-integrity checks to the verification gate.
+
+## 2026-08-22 — Phase 13: airport and source-register verification
+
+- Added a separate airport-summary implementation and a static source-register integrity checker.
+- Result: all seven airport metrics match exactly; the source register has unique IDs, nonblank required fields, valid HTTP(S) URLs, and ISO access dates.
+- Verification boundary: these checks validate bookkeeping and provenance hygiene, not the truth or current applicability of external claims.
+- Next hypothesis: add source hashes where practical and independently replicate one passenger/noise evidence claim before changing any practical-status label.

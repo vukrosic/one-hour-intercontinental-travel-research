@@ -1,0 +1,8 @@
+metric,independent_value,reference_value,pass
+total_rows,7,7,True
+framework_exists_rows,4,4,True
+supported_historical_rows,1,1,True
+prospective_standard_rows,1,1,True
+evidence_missing_rows,1,1,True
+rows_requiring_candidate_characteristics,6,6,True
+current_generic_high_speed_pass_rows,0,0,True

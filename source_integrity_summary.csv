@@ -1,0 +1,8 @@
+metric,value
+source_rows,27
+unique_source_ids,27
+duplicate_source_ids,0
+blank_required_fields,0
+invalid_urls,0
+invalid_access_dates,0
+pass,1
