@@ -22,3 +22,7 @@ BTS_ENERGY_INTENSITY,BTS energy intensity of certificated air carriers,https://w
 EIA_JET_CO2,EIA carbon dioxide emissions coefficients,https://www.eia.gov/environment/emissions/co2_vol_mass.php,"Direct-combustion jet-fuel CO2 factor",2026-08-22
 EPA_GHG_2024,EPA 2024 greenhouse gas inventory factors,https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf,"Long-haul passenger air-travel direct CO2 comparison factor based on 2019 data",2026-08-22
 NASA_STANDARD_ATMOSPHERE,NASA standard atmosphere tables,https://ntrs.nasa.gov/citations/19930090991,"Public static-temperature values used for a generic sensitivity interval",2026-08-22
+FAA_AIRPORT_DESIGN,FAA AC 150/5300-13B Airport Design,https://www.faa.gov/airports/resources/advisory_circulars/index.cfm/go/document.current/documentNumber/150_5300-,"Current civil-airport geometric design standards and recommendations",2026-08-22
+FAA_RUNWAY_MATRIX,FAA Runway Design Standards Matrix,https://www.faa.gov/airports/engineering/airport_design/rdsm/index.cfm,"Aircraft Approach Category and Airplane Design Group classification context",2026-08-22
+FAA_ARFF,FAA Aircraft Rescue and Fire Fighting,https://www.faa.gov/airports/airport_safety/aircraft_rescue_fire_fighting,"Part 139 ARFF service and index framework",2026-08-22
+ICAO_ANNEX14,ICAO Annex 14 Aerodromes Volume I,https://store.icao.int/en/annex-14-aerodromes,"Aerodrome physical characteristics facilities technical services and future-aircraft evaluation context",2026-08-22

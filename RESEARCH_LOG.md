@@ -57,3 +57,11 @@
 - Limiting result: thermal burden changes regime faster than fixed-distance time benefit, while empirical serviceability evidence remains absent.
 - Preserved strict boundaries: no wall temperature, heat flux, material, geometry, cooling, altitude, or trajectory inference.
 - Next hypothesis: the Mach 2→3 thermal step may be a stronger practicality discriminator than its time saving.
+
+## 2026-08-22 — Phase 8: airport compatibility evidence audit
+
+- Added a structured audit of FAA/ICAO airport-design frameworks, rescue readiness, prospective noise standards, and historical Concorde integration.
+- Result: mature evaluation frameworks exist, but six of seven audited rows require candidate characteristics.
+- Evidence-gap result: zero current generic high-speed compatibility passes; historical Mach 2 service is selective precedent only.
+- Preserved the non-actionable boundary by excluding dimensions, runway calculations, loads, rescue indices, airport assessments, and procedures.
+- Next hypothesis: airport compatibility should remain a conjunctive gate rather than a speed-only scalar constraint.
