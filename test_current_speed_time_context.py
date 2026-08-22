@@ -16,6 +16,7 @@ class CurrentSpeedTimeContextTests(unittest.TestCase):
         self.assertEqual(savings[0], 0.0)
         self.assertTrue(all(a < b for a, b in zip(savings, savings[1:])))
         self.assertAlmostEqual(savings[1], 8.1081081081081)
+        self.assertAlmostEqual(savings[2], 9.0909090909091)
         self.assertAlmostEqual(savings[3], 57.5)
 
 

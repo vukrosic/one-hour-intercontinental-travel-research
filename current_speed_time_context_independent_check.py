@@ -47,8 +47,8 @@ def independently_summarize():
         "current_reference_rows": len(machs) - 1,
         "mach2_comparison_rows": 1,
         "airline_reference_saving_percent": savings[0],
-        "certified_business_reference_saving_percent": savings[1],
-        "marketed_high_subsonic_reference_saving_percent": savings[2],
+        "global7500_reference_saving_percent": savings[1],
+        "g700_reference_saving_percent": savings[2],
         "mach2_speed_only_saving_percent": savings[3],
     }
 

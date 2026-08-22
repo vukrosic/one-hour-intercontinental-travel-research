@@ -20,7 +20,7 @@ class PracticalitySummaryTests(unittest.TestCase):
     def test_conceptual_bins_have_no_service_anchor(self):
         summary = summarize(load_rows())
         self.assertEqual(summary["classes_with_no_service_anchor"], 2)
-        self.assertEqual(summary["current_business_reference_not_ranked_rows"], 1)
+        self.assertEqual(summary["current_business_reference_not_ranked_rows"], 2)
 
 
 if __name__ == "__main__":

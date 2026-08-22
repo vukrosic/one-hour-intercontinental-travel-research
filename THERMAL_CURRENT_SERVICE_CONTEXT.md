@@ -15,8 +15,8 @@ then adds the current reference speeds from
 | Reference | Mach | Ideal total-temperature interval |
 |---|---:|---:|
 | Airline-service baseline | 0.850 | 248.0–286.5 K |
-| Certified business-aviation anchor | 0.925 | 253.7–293.1 K |
-| Manufacturer-only higher subsonic claim | 0.935 | 254.4–293.9 K |
+| Certified business-aviation reference: Global 7500 | 0.925 | 253.7–293.1 K |
+| Certified business-aviation reference: G700 | 0.935 | 254.4–293.9 K |
 | Historical Mach 2 service class | 2.000 | 390.0–450.6 K |
 
 The Mach 2 lower bound is above the highest current-reference upper bound in
@@ -44,8 +44,9 @@ and reproduces all seven summary metrics within `1e-12`.
   proxy already used by the repository; it does not model heat flux, duration,
   recovery factor, wall temperature, cabin temperature, materials, cooling, or
   serviceability.
-- The current Mach 0.925 and 0.935 values come from different evidence states
-  and are not interchangeable certification claims.
+- The current Mach 0.925 and 0.935 values are both certified in-service
+  business-aviation references, but they remain distinct aircraft records and
+  neither is interchangeable with an airline-capacity benchmark.
 - “Higher than” here means higher within the frozen ideal proxy interval, not
   hotter aircraft hardware or a safety threshold.
 - No vehicle, trajectory, altitude, route, construction, or operational

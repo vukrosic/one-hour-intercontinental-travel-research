@@ -3,6 +3,6 @@ current_speed_time_context_rows,4
 current_reference_rows,3
 mach2_comparison_rows,1
 airline_reference_saving_percent,0.0
-certified_business_reference_saving_percent,8.108108108108114
-marketed_high_subsonic_reference_saving_percent,9.090909090909093
+global7500_reference_saving_percent,8.108108108108114
+g700_reference_saving_percent,9.090909090909093
 mach2_speed_only_saving_percent,57.49999999999999

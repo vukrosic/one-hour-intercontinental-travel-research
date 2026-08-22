@@ -1,8 +1,8 @@
 metric,value
-speed_class_rows,5
+speed_class_rows,6
 current_practical_pass_rows,0
 current_baseline_not_ranked_rows,1
-current_business_reference_not_ranked_rows,1
+current_business_reference_not_ranked_rows,2
 historical_anchor_not_current_practical_pass_rows,1
 conceptual_unresolved_rows,2
 contradicted_gate_cells,1

@@ -10,13 +10,13 @@ class CurrentCivilianSpeedCloseReadTests(unittest.TestCase):
         self.assertEqual(len(rows), len({row["entry_id"] for row in rows}))
         summary = summarize(rows)
         self.assertEqual(summary["current_airline_service_rows"], 1)
-        self.assertEqual(summary["current_certified_business_aviation_rows"], 1)
-        self.assertEqual(summary["manufacturer_only_rows"], 1)
+        self.assertEqual(summary["current_certified_business_aviation_rows"], 2)
+        self.assertEqual(summary["manufacturer_only_rows"], 0)
 
     def test_service_frontier_does_not_include_marketed_claim(self):
         summary = summarize(load_rows())
         self.assertAlmostEqual(summary["highest_published_subsonic_mach"], 0.935)
-        self.assertAlmostEqual(summary["highest_service_anchored_mach"], 0.925)
+        self.assertAlmostEqual(summary["highest_service_anchored_mach"], 0.935)
         self.assertEqual(summary["speed_frontier_pass_rows"], 0)
 
 

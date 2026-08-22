@@ -102,6 +102,16 @@
 - Verification boundary: these checks validate bookkeeping and provenance hygiene, not the truth or current applicability of external claims.
 - Next hypothesis: add source hashes where practical and independently replicate one passenger/noise evidence claim before changing any practical-status label.
 
+## 2026-08-22 — Phase 39: G700 certification and service provenance correction
+
+- Rechecked the conditional Mach 0.935 G700 row against the FAA Dynamic Regulatory System type-certificate record, EASA type-certificate data, General Dynamics' certification announcement, and Qatar Airways' operator newsroom record.
+- Correction: the G700 is not merely a marketed performance claim. The public record supports FAA certification (2024-03-29), EASA validation (2024-05-15), delivery of two aircraft to Qatar Executive, and a planned full commercial charter-service entry in June 2024. The performance source remains separate from certification and service sources.
+- Updated the close-read ledger so the G700 is `current_certified_in_service` with `certified_service_record` evidence. The current subsonic service frontier is now Mach 0.935 for business aviation, while the Mach 0.85 airline baseline and Mach 0.925 Global 7500 remain separate category references.
+- Regenerated speed, ideal time, thermal, and source-integrity outputs. The fixed-distance arithmetic remains 8.1% speed-only savings at Mach 0.925, 9.1% at Mach 0.935, and 57.5% for the historical Mach 2 class versus Mach 0.85; no practicality gate changed.
+- Independent checks and the full test suite pass (116 tests); source-register hygiene is clean at 50 unique rows.
+- Limitation: certification and charter service establish a real civilian reference, not airline capacity, normal-cruise performance, economics, passenger acceptance, noise compliance, or a universal fastest-practical ranking.
+- Next hypothesis: use the now-certified G700 and Global 7500 as separate high-subsonic empirical anchors when testing passenger-comfort, energy, noise, and airport-compatibility evidence, without extrapolating their maximum operating speeds into a new aircraft design.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

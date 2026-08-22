@@ -92,12 +92,12 @@ def summarize(rows):
             for row in rows
             if row["reference_id"] == "SPEED-001"
         ),
-        "certified_business_reference_saving_percent": next(
+        "global7500_reference_saving_percent": next(
             row["speed_only_time_saving_vs_airline_percent"]
             for row in rows
             if row["reference_id"] == "SPEED-002"
         ),
-        "marketed_high_subsonic_reference_saving_percent": next(
+        "g700_reference_saving_percent": next(
             row["speed_only_time_saving_vs_airline_percent"]
             for row in rows
             if row["reference_id"] == "SPEED-003"
