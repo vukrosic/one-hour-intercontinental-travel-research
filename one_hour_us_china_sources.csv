@@ -1,0 +1,10 @@
+field,placeholder_value,unit,source_or_action,uncertainty_notes
+origin_airport,"Los Angeles (LAX)",,"Replace coordinates with cited government/geospatial source", "City-pair choice is provisional"
+destination_airport,"Shanghai (PVG)",,"Replace coordinates with cited government/geospatial source", "City-pair choice is provisional"
+routing_margin,0.00-0.25,fraction,"Sensitivity range; justify with public route/airspace data", "Not a trajectory"
+climb_descent_time,8-15,min,"Public performance literature range", "Separate from cruise time"
+L_over_D_screen,4-12,dimensionless,"Peer-reviewed/public transport literature", "Screening envelope, not target"
+allocated_mass,90-180,kg/passenger,"Public payload accounting conventions", "Includes baggage and allocated systems mass"
+payload_efficiency,0.35-0.75,fraction,"Document definition and source before use", "Proxy parameter"
+human_acceleration_limit,,g,"NASA/FAA/EASA human-factors sources", "Must distinguish comfort from injury limits"
+noise_or_boom_limit,,dB,"FAA/EASA/ICAO/public sonic-boom research", "Likely unresolved until route context is specified"
