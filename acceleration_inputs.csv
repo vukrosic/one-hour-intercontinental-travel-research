@@ -1,0 +1,3 @@
+key,value,unit,source_id,role,limitation
+reference_distance_km,9492.6,km,INTERNAL_BENCHMARK,"common fixed-distance yardstick inherited from the archived SFO-PEK screen","Not a route recommendation or airport procedure"
+standard_gravity,9.80665,m/s^2,SI_CONSTANT,"unit conversion for abstract acceleration fractions","Does not assert a passenger comfort threshold"

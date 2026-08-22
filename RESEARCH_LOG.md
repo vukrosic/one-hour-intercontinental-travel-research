@@ -116,6 +116,13 @@
 - Limitation: a digest is provenance metadata, not source truth, legal force, or proof of applicability; dynamic pages still require refresh.
 - Next hypothesis: keep hashes as audit anchors while expanding independent public replication only where a source claim can be checked without speculative design assumptions.
 
+## 2026-08-22 — Phase 17: abstract acceleration sensitivity
+
+- Added a bounded kinematic screen for symmetric acceleration/deceleration across four speed classes and three declared acceleration fractions.
+- Result: the model reports phase-distance and time-overhead sensitivity without assigning any comfort or certification threshold.
+- Boundary preserved: no trajectory, geometry, route, control law, seat design, or operating procedure is generated.
+- Next hypothesis: independently reproduce the acceleration table before using it to frame passenger-environment literature questions.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

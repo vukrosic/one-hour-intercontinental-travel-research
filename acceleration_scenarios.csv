@@ -1,0 +1,13 @@
+speed_bin,speed_kmh,acceleration_fraction_g
+subsonic_reference,900,0.05
+subsonic_reference,900,0.10
+subsonic_reference,900,0.20
+Concorde_historical,2160,0.05
+Concorde_historical,2160,0.10
+Concorde_historical,2160,0.20
+Mach_3_conceptual_bin,3240,0.05
+Mach_3_conceptual_bin,3240,0.10
+Mach_3_conceptual_bin,3240,0.20
+Mach_5_conceptual_bin,5400,0.05
+Mach_5_conceptual_bin,5400,0.10
+Mach_5_conceptual_bin,5400,0.20
