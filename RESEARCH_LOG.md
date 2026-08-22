@@ -144,6 +144,13 @@
 - Boundary preserved: this is editorial/reproducibility infrastructure, not a weighted ranking or a physical feasibility proof.
 - Next hypothesis: keep the guard in the test suite as new evidence rows are added.
 
+## 2026-08-22 — Phase 21: passenger/noise literature map
+
+- Added a transferability-aware map of six public passenger-ride, cabin-noise, certification, and community-noise sources.
+- Result: the map reports zero high-speed practical passes and keeps historical empirical studies, current research, and certification guidance in separate categories.
+- Limitation: no source supplies a universal speed-specific acceleration, vibration, or noise threshold.
+- Next hypothesis: close-read the highest-transferability entries before introducing any passenger-environment threshold into a model.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

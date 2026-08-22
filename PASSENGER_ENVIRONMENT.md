@@ -16,6 +16,8 @@ Do public transport-aircraft rules and studies provide thresholds sufficient to 
 
 `passenger_evidence_summary.py` validates required fields, summarizes coverage, and explicitly prevents an emergency crashworthiness acceleration from being counted as a normal-flight comfort threshold.
 
+`PASSENGER_NOISE_LITERATURE_MAP.md` adds a transferability-aware map of historical ride-quality studies, certification guidance, and current noise research.
+
 ## Evidence found
 
 1. EASA CS 25.841 gives quantitative cabin-pressure-altitude requirements: no more than 8,000 ft under normal conditions and no more than 15,000 ft after a reasonably probable pressurisation failure when certification above 25,000 ft is requested.
@@ -42,3 +44,5 @@ The passenger-environment gate is not failed, but it is unresolved above Mach 2.
 ## Next hypothesis
 
 A practical speed class above Mach 2 would need empirical ride-quality and cabin-environment evidence specific enough to bridge the gap between general certification requirements and actual passenger acceptance. The next passenger-focused pass should test whether aerospace-medicine and ride-quality literature supplies such transferable evidence.
+
+The current literature map does not close that gap; it is an indexing and category-separation artifact only.

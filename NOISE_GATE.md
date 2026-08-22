@@ -18,6 +18,8 @@ Does current public evidence support noise certification and community acceptabi
 
 `CLAIM_REPLICATION.md` adds a dated direct-page read of the current FAA restriction, prospective FAA policy direction, NASA Quesst community-response programme, and the general EASA cabin rule. It does not change the gate status.
 
+`PASSENGER_NOISE_LITERATURE_MAP.md` separates cabin noise/vibration research from community sonic-boom response and transport-certification guidance.
+
 ## Current evidence snapshot (2026-08-22)
 
 - FAA states that civil flight above Mach 1 over U.S. land remains prohibited except under special authorization.
