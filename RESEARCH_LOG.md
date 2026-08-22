@@ -209,6 +209,14 @@
 - Limitation: state validation is not a legal opinion, noise model, or community-acceptance result.
 - Next hypothesis: retain noise as a temporally unstable binding gate until final standards and empirical community-response evidence are available.
 
+## 2026-08-22 — Phase 29: cabin-environment requirement close read
+
+- Close-read EASA CS-25.841 pressurisation, EASA CS-25.831/AMC 25.831 ventilation, FAA AC 25-7D buffet guidance, and EASA 16g seat-crashworthiness evidence.
+- Result: the structured table separates 2 normal-operation requirement rows, 3 failure/emergency rows, and 1 partial qualitative row; it contains zero high-speed-specific rows and zero comfort/serviceability passes.
+- Independent bookkeeping reproduces all 7 summary metrics; all evidence remains general transport-category context rather than a high-speed proof.
+- Limitation: public requirements do not establish a complete cabin thermal, acoustic, pressure-transient, or passenger-acceptance demonstration for faster aircraft.
+- Next hypothesis: keep cabin environment unresolved until comparable high-speed empirical evidence bridges the applicability gap.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

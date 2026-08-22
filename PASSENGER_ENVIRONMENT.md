@@ -18,6 +18,10 @@ Do public transport-aircraft rules and studies provide thresholds sufficient to 
 
 `PASSENGER_NOISE_LITERATURE_MAP.md` adds a transferability-aware map of historical ride-quality studies, certification guidance, and current noise research.
 
+`CABIN_ENVIRONMENT_CLOSE_READ.md` close-reads the EASA pressure/ventilation
+requirements, FAA cruise-buffet guidance, and EASA emergency seat evidence while
+keeping normal, failure, qualitative, and emergency contexts separate.
+
 ## Evidence found
 
 1. EASA CS 25.841 gives quantitative cabin-pressure-altitude requirements: no more than 8,000 ft under normal conditions and no more than 15,000 ft after a reasonably probable pressurisation failure when certification above 25,000 ft is requested.
@@ -28,7 +32,7 @@ Do public transport-aircraft rules and studies provide thresholds sufficient to 
 
 ## Reproducible result
 
-The current table contains six evidence rows: three supported normal/failure cabin requirements, one partial qualitative cruise-buffet criterion, one unresolved passenger-comfort research row, and one emergency safety value explicitly excluded from comfort reasoning. It contains **zero supported high-speed-specific passenger comfort thresholds**.
+The current table contains six evidence rows: three supported normal/failure cabin requirements, one partial qualitative cruise-buffet criterion, one unresolved passenger-comfort research row, and one emergency safety value explicitly excluded from comfort reasoning. The close read contains two normal-operation requirement rows, three failure/emergency rows, one partial qualitative row, and **zero high-speed-specific passenger comfort or cabin-serviceability thresholds**.
 
 ## Conclusion
 
@@ -43,4 +47,4 @@ The passenger-environment gate is not failed, but it is unresolved above Mach 2.
 
 ## Next hypothesis
 
-The close read in [PASSENGER_RIDE_CLOSE_READ.md](PASSENGER_RIDE_CLOSE_READ.md) confirms that public studies provide frequency-dependent and multi-factor measurement methods but no demonstrated speed-specific threshold. A practical speed class above Mach 2 would therefore need new or more directly comparable empirical ride-quality and cabin-environment evidence to bridge the gap between general certification requirements and actual passenger acceptance.
+The close reads in [PASSENGER_RIDE_CLOSE_READ.md](PASSENGER_RIDE_CLOSE_READ.md) and [CABIN_ENVIRONMENT_CLOSE_READ.md](CABIN_ENVIRONMENT_CLOSE_READ.md) confirm that public studies and rules provide measurement methods and general requirements but no demonstrated speed-specific passenger or cabin-serviceability threshold. A practical speed class above Mach 2 would therefore need new or more directly comparable empirical evidence to bridge the gap between general certification requirements and actual passenger acceptance.

@@ -1,0 +1,8 @@
+metric,independent_value,reference_value,pass
+cabin_close_read_rows,6,6,True
+normal_certification_rows,2,2,True
+failure_or_emergency_rows,3,3,True
+partial_qualitative_rows,1,1,True
+high_speed_specific_rows,0,0,True
+comfort_threshold_rows,0,0,True
+high_speed_serviceability_pass_rows,0,0,True
