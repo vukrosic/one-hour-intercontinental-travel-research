@@ -1,0 +1,9 @@
+key,value,unit,source_id,role,limitation
+concorde_fuel_l_per_hour,25629,L/hour,BA_CONCORDE,"historical cruise fuel-use proxy","Published aircraft fact, not route-level observed fuel burn"
+concorde_speed_kmh,2160,km/hour,BA_CONCORDE,"historical cruise speed","Cruise value; does not include other flight phases"
+concorde_seat_capacity,100,seats,BA_CONCORDE,"maximum passenger denominator","Seat capacity is not observed occupancy"
+jet_heat_btu_per_us_gallon,135000,Btu/US gallon,BTS_ENERGY_INTENSITY,"fuel energy conversion","BTS conversion factor for air carriers"
+jet_co2_kg_per_us_gallon,9.75,kg CO2/US gallon,EIA_JET_CO2,"direct combustion CO2 conversion","Does not include lifecycle or non-CO2 climate effects"
+long_haul_co2_kg_per_passenger_mile,0.163,kg CO2/passenger-mile,EPA_GHG_2024,"modern long-haul aggregate comparison","EPA factor is based on 2019 source data and is not a single aircraft"
+liters_per_us_gallon,3.785412,L/US gallon,BTS_ENERGY_INTENSITY,"unit conversion","Exact conversion used by BTS"
+km_per_mile,1.609344,km/mile,BTS_ENERGY_INTENSITY,"unit conversion","Exact conversion used by BTS"

@@ -39,3 +39,12 @@
 - Result: the U.S. prohibition remains current while a July 2026 NPRM proposes a noise-based replacement; ICAO en-route certification and NASA community-response evidence are still developing.
 - Negative/evidence-maturity result: zero audited rows demonstrate a final high-speed pass threshold or commercial community acceptance.
 - Next hypothesis: noise remains a binding practicality gate above Mach 1 until final standards and community-response evidence mature.
+
+## 2026-08-22 — Phase 6: energy intensity and historical economics
+
+- Added a fully sourced input ledger and tested passenger-distance energy/CO2 comparison.
+- Compared the historical Concorde public-spec cruise proxy at 100%, 80%, and 60% occupancy with an EPA modern long-haul aggregate using common EIA/BTS fuel factors.
+- Result: Concorde proxy is approximately 3.02x the modern long-haul energy and direct CO2 intensity at full occupancy, 3.77x at 80%, and 5.03x at 60%.
+- Negative result: the historical Mach 2 anchor fails the selected modern energy-intensity benchmark even under favorable occupancy.
+- Historical NASA economics evidence points in the same adverse direction but does not establish a current business case.
+- Next hypothesis: the practical frontier may favor a lower supersonic speed class if empirical evidence can show meaningful time savings without the Mach 2 energy penalty.
