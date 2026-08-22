@@ -109,6 +109,13 @@
 - Consequence: noise and passenger-environment gates remain unresolved; no speed-matrix status changes are justified.
 - Next hypothesis: add document hashes where practical and keep dated regulatory refreshes separate from stable mathematical checks.
 
+## 2026-08-22 — Phase 16: metadata-only document hashes
+
+- Retrieved four refreshed primary pages and stored byte counts plus SHA-256 digests without copying the full documents into the public repository.
+- Result: the hash manifest passes registration, URL, date, byte-count, and digest-format checks.
+- Limitation: a digest is provenance metadata, not source truth, legal force, or proof of applicability; dynamic pages still require refresh.
+- Next hypothesis: keep hashes as audit anchors while expanding independent public replication only where a source claim can be checked without speculative design assumptions.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

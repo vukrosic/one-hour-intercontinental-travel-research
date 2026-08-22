@@ -1,0 +1,5 @@
+source_id,public_url,retrieved,bytes,sha256,retrieval_mode,scope_note
+FAA_SFA_CURRENT,https://www.faa.gov/about/office_org/headquarters_offices/apl/aee/env_policy/sfa_supersonic,2026-08-22,107814,d1274b8207192ffc4f5d34b0ce91c1da0b687be323b6f3108bfa5d23cbafe298,curl_follow_redirects,"Retrieved HTML bytes only; page may change"
+FAA_SUPERSONIC_OVERVIEW,https://www.faa.gov/supersonic,2026-08-22,104398,570817c75bc5f46eb9c732c500278ea29a1febd7e368ec547072afb62873743e,curl_follow_redirects,"Retrieved HTML bytes only; page may change"
+NASA_QUESST_MISSION,https://www.nasa.gov/mission/quesst/,2026-08-22,330262,e0cc39f0d36d1a09550a13525900574c1659a9b3983290229ae08d61e31d0616,curl_follow_redirects,"Retrieved HTML bytes only; page may change"
+EASA_CS25_841,https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-large-aeroplanes-cs-25?page=29,2026-08-22,164924,61668e17dd48986862030dbc6a4a73a9fef20b652788e0d91e28f529dd2aa817,curl_follow_redirects,"Retrieved HTML bytes only; page may change"

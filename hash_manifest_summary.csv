@@ -1,0 +1,9 @@
+metric,value
+hash_rows,4
+missing_source_register_ids,0
+duplicate_source_ids,0
+invalid_dates,0
+invalid_sha256_values,0
+nonpositive_byte_counts,0
+invalid_urls,0
+pass,1
