@@ -6,7 +6,7 @@ This is a civilian transport-science feasibility and simulation study. It does *
 
 ## Research question
 
-Under explicit, civilian assumptions, is a scheduled one-hour door-to-door U.S.–China passenger journey physically and economically plausible, and which constraints dominate? The first milestone tests an even narrower claim: whether a one-hour **airborne cruise** can satisfy a transparent energy/heat/acceleration/noise screening model without requiring implausible parameter values.
+Under explicit, civilian assumptions, is a scheduled one-hour **door-to-door** San Francisco–Beijing passenger journey physically and economically plausible, and which constraints dominate? Airborne time is only one component of the total budget.
 
 ## High-level bottlenecks
 
@@ -27,26 +27,27 @@ We can reproduce a spreadsheet/Python model using route great-circle distance, t
 
 ### Hypothesis
 
-For a representative U.S.–China city pair, a one-hour airborne segment is ruled out by at least one of four screening constraints across the majority of defensible public parameter ranges: (1) required average speed after climb/descent and routing margin, (2) energy per passenger, (3) thermal/heat-rate proxy, or (4) passenger acceleration/noise bounds.
+With realistic minimum airport-process and access times, the one-hour door-to-door target leaves too little airborne time for the San Francisco–Beijing distance across the majority of defensible public parameter ranges. This is a falsifiable screening claim, not a universal impossibility theorem.
 
 ### Frozen scenario and assumptions
 
-1. Select one city pair only (default Los Angeles–Shanghai) and record airport coordinates and source.
-2. Use great-circle distance as a lower bound; add a fixed routing margin (default 10%, sensitivity 0–25%).
-3. Define “airborne one hour” separately from “door-to-door one hour”; do not mix them.
-4. Reserve explicit climb/descent and schedule margins (default 10 minutes total), leaving 50 minutes for cruise in the screening case.
+1. Canonical city pair: San Francisco International (SFO) to Beijing Capital (PEK); coordinates are recorded in the script and must be replaced/verified against a cited public geospatial source.
+2. Total target is exactly 60 minutes door-to-door. The budget is split into origin ground access, check-in/security, boarding, ground operations, ascent/descent, airborne segment, and arrival/egress.
+3. Sample non-airborne components independently from explicit ranges: access 5–15 min, check-in/security 10–20, boarding 5–10, ground operations 3–8, ascent/descent 8–15, arrival/egress 5–15.
+4. Use great-circle distance as a lower bound and add a routing margin (0–25%). Any negative airborne-time draw is an immediate failure.
 5. Represent passenger payload as a range per traveler (including seat, baggage, and allocated systems mass); do not choose a vehicle layout.
-6. Evaluate speed, energy, and heat with broad literature ranges and report intervals, not point claims.
-7. Treat any result as a screen, not a certification or design result.
+6. Evaluate speed and energy with broad literature ranges and report intervals, not point claims. Heat, noise, and human factors remain separate evidence gates.
+7. Treat every result as a screen, not a certification or design result.
 
 ### Reproducible calculations
 
 For each sampled parameter set:
 
 ```text
+non_airborne_min = access + checkin_security + boarding + ground_ops + ascent_descent + arrival_egress
+airborne_time_h = (60 - non_airborne_min) / 60
 route_km = great_circle_km * (1 + routing_margin)
-cruise_time_h = 1 - climb_descent_minutes/60
-required_mean_speed = route_km / cruise_time_h
+required_mean_speed = route_km / airborne_time_h
 specific_transport_energy = (g * route_km) / (L_over_D * payload_efficiency)
 passenger_energy = specific_transport_energy * allocated_mass_per_passenger
 ```
@@ -55,11 +56,18 @@ The energy expression is an intentionally transparent lower-order transport-work
 
 ### Pass/fail criteria
 
-- **Speed:** report whether required mean speed lies inside the selected public reference envelope.
+- **Time budget:** report median and 5–95% non-airborne time and the fraction of draws with positive airborne time.
+- **Speed:** report whether required mean speed lies inside the selected public reference envelope; do not treat that envelope as a design target.
 - **Energy:** report median and 5–95% interval versus commercial aviation and public high-speed-transport benchmarks.
 - **Human factors:** fail the scenario if required acceleration profile exceeds the chosen public comfort/safety envelope.
 - **Noise:** mark “unresolved/likely blocker” when no public evidence supports compliance for populated-route operation; do not infer a design fix.
 - **Robustness:** the hypothesis is supported if ≥3 of 4 screens fail in ≥80% of Monte Carlo draws. Otherwise classify as inconclusive and tighten sources, not assumptions.
+
+### v0.2 result (seed 20260822, 1,000 draws)
+
+The SFO–PEK great-circle lower bound is approximately 9,493 km. Under the frozen process ranges, non-airborne time has p05/median/p95 of 49.9/59.3/68.9 minutes. Only 54.2% of draws leave any positive airborne time, and just 5.2% leave at least 10 minutes. Among positive-airborne draws, required mean speed has p05/median/p95 of approximately 53,937/139,520/1,635,895 km/h. The low-order transport-work proxy energy has p05/median/p95 of 1,719/3,266/6,920 MJ per passenger.
+
+**Interpretation:** under these explicit assumptions, a 60-minute door-to-door SFO–PEK trip is not feasible as a robust public-data scenario. The dominant first-order result is the time budget, before heat, noise, passenger acceleration, infrastructure, or economics are considered. This does not prove that every conceivable transport architecture is impossible; it identifies which assumptions would have to change and which evidence gates must be tested next.
 
 ## Data and source plan
 
@@ -75,8 +83,7 @@ No detailed vehicle configuration, propulsion recipe, trajectory, thermal-protec
 
 ## Next steps
 
-1. Confirm the city pair and the operational definition (airborne vs door-to-door).
-2. Build the source ledger and coordinate/distance calculation.
-3. Implement the frozen v0.1 model with a fixed seed and unit tests for distance/time/energy equations.
-4. Run a small 1,000-draw smoke test, inspect ranges, then expand only if calculations are correct.
-5. Publish a methods note with assumptions, uncertainty, and failure modes before adding any new physics.
+1. Verify SFO/PEK coordinates and airport-process ranges against primary public sources.
+2. Compare the time-budget screen with an empirical commercial-aviation baseline.
+3. Add separately sourced heat, noise, and passenger-acceleration gates without introducing design details.
+4. Preserve the negative/inconclusive result and update only through auditable commits.
