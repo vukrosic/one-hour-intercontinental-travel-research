@@ -8,6 +8,7 @@ class PracticalitySummaryTests(unittest.TestCase):
         rows = load_rows()
         bins = [row["speed_bin"] for row in rows]
         self.assertEqual(len(bins), len(set(bins)))
+        self.assertIn("current_business_reference", bins)
 
     def test_no_class_receives_a_practical_pass(self):
         self.assertEqual(summarize(load_rows())["current_practical_pass_rows"], 0)
@@ -19,6 +20,7 @@ class PracticalitySummaryTests(unittest.TestCase):
     def test_conceptual_bins_have_no_service_anchor(self):
         summary = summarize(load_rows())
         self.assertEqual(summary["classes_with_no_service_anchor"], 2)
+        self.assertEqual(summary["current_business_reference_not_ranked_rows"], 1)
 
 
 if __name__ == "__main__":

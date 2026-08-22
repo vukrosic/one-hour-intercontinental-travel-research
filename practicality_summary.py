@@ -85,6 +85,7 @@ def summarize(rows):
         "speed_class_rows": len(rows),
         "current_practical_pass_rows": statuses["practical_pass"],
         "current_baseline_not_ranked_rows": statuses["current_baseline_not_ranked"],
+        "current_business_reference_not_ranked_rows": statuses["current_business_reference_not_ranked"],
         "historical_anchor_not_current_practical_pass_rows": statuses[
             "historical_anchor_not_current_practical_pass"
         ],

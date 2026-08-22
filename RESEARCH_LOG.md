@@ -273,6 +273,13 @@
 - Limitation: source provenance checks validate bookkeeping, not the truth of manufacturer claims or certification status.
 - Next hypothesis: repeat this claim-to-source split wherever a single public page is currently carrying more than one evidence role.
 
+## 2026-08-22 — Phase 37: practicality-matrix category split
+
+- Added the certified Mach 0.925 business-aviation reference as a distinct non-ranked row in `practicality_matrix.csv` instead of forcing the Mach 0.85 airline baseline to represent all civilian passenger categories.
+- Result: the matrix now has five rows, zero current practical passes, one airline baseline row, one business-aviation reference row, one Mach 2 historical anchor, and two conceptual unresolved bins; the semantic guard passes all five rows.
+- Limitation: the new row is a scope correction, not a claim that business-aviation service is equivalent to airline capacity, economics, or airport compatibility.
+- Next hypothesis: preserve category-specific reference rows whenever a gate's evidence depends on service class, while keeping the practicality screen conjunctive and non-scalar.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

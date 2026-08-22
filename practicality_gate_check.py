@@ -16,6 +16,7 @@ GATE_COLUMNS = (
     "airport_compatibility",
 )
 BLOCKING_MARKERS = ("unresolved", "contradicted", "adverse")
+CURRENT_REFERENCE_STATUSES = {"current_baseline_not_ranked", "current_business_reference_not_ranked"}
 
 
 def load_rows(path=INPUT):
@@ -39,7 +40,7 @@ def check_row(row):
         "conceptual_bin_lacks_service_anchor": row["practical_status"] != "conceptual_unresolved"
         or row["historical_service"] == "unresolved_no_service_anchor",
         "nonbaseline_status_lists_blocking_gates": row["practical_status"]
-        == "current_baseline_not_ranked"
+        in CURRENT_REFERENCE_STATUSES
         or bool(row["blocking_gates"] and row["blocking_gates"] != "none"),
     }
     return {
