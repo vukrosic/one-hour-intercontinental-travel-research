@@ -34,6 +34,10 @@ The marginal time saved per incremental kinetic-energy proxy falls by roughly 76
 
 The comparison strengthens a negative constraint: higher speed always reduces airborne time, but the incremental time benefit shrinks while idealized thermal and kinetic-energy burdens grow quadratically. It does **not** identify an optimum Mach number because real practicality also depends on aerodynamics, propulsion efficiency, noise, passenger environment, emissions, utilization, reliability, and economics. No arbitrary weights are combined into a single score.
 
+## Verification checkpoint
+
+`speed_tradeoff_independent_check.py` independently reproduces all six rows within `1e-12`, including the marginal diminishing-return columns. This verifies the arithmetic trend only; it does not validate the physical proxies or any aircraft performance claim.
+
 ## Limitations
 
 - Fixed-distance cruise arithmetic omits acceleration, climb, descent, winds, routing, and reserves.

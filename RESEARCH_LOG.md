@@ -87,3 +87,10 @@
 - Result: all six Mach rows pass at an absolute tolerance of `1e-12`.
 - Verification boundary: the check validates arithmetic only; ideal-gas, standard-atmosphere, and system-level serviceability limitations remain unresolved.
 - Next hypothesis: independently reproduce the fixed-distance speed-tradeoff model to test the diminishing-return result before adding new physics.
+
+## 2026-08-22 — Phase 12: independent speed-tradeoff reproduction
+
+- Added a separate implementation of the fixed-distance time, normalized kinetic-energy, ideal temperature, and marginal-benefit calculations.
+- Result: all six Mach-bin rows pass at an absolute tolerance of `1e-12`; the diminishing-return trend is independently reproduced.
+- Verification boundary: this remains a dimensionless arithmetic screen and does not validate aerodynamic, propulsion, thermal, noise, passenger, or economic proxies.
+- Next hypothesis: independently reproduce the airport-compatibility summary and then add source-integrity checks to the verification gate.
