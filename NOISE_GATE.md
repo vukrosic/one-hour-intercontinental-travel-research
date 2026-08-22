@@ -14,7 +14,7 @@ Does current public evidence support noise certification and community acceptabi
 4. standards still in development; and
 5. empirical research programmes still collecting evidence.
 
-`noise_evidence_summary.py` validates the table and prevents a proposed threshold or ongoing programme from being counted as a final high-speed pass criterion.
+`noise_evidence_summary.py` validates the table and prevents a proposed threshold or ongoing programme from being counted as a final high-speed pass criterion. `noise_state_guard.py` adds an executable semantic guard over the full state vocabulary and explicit `high_speed_practical_pass` field; see [NOISE_STATE_GUARD.md](NOISE_STATE_GUARD.md).
 
 `CLAIM_REPLICATION.md` adds a dated direct-page read of the current FAA restriction, prospective FAA policy direction, NASA Quesst community-response programme, and the general EASA cabin rule. It does not change the gate status.
 
@@ -30,6 +30,8 @@ Does current public evidence support noise certification and community acceptabi
 ## Reproducible result
 
 The current audit has six rows. It contains one current binding constraint, one proposal, one developing international en-route standard, one empirical programme in progress, one prospective landing/takeoff standards row, and one unresolved cabin-noise gap. It contains **zero final high-speed pass-threshold or demonstrated commercial-acceptance rows**.
+
+The state guard independently confirms 1 current-binding row, 3 prospective/development rows, 1 research-in-progress row, 1 unresolved row, 0 final passes, and 0 semantic errors.
 
 ## Conclusion
 

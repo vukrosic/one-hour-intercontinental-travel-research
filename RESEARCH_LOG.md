@@ -201,6 +201,14 @@
 - Limitation: historical operating-cost ratios and programme pages do not establish current fares, utilization, profitability, reliability, or a universal future penalty.
 - Next hypothesis: only comparable modern public cost data could move the economics gate; until then retain adverse historical evidence and unresolved future status.
 
+## 2026-08-22 — Phase 28: noise evidence state guard
+
+- Refreshed the official FAA, NASA Quesst, and ICAO pages and formalized the existing noise evidence state vocabulary in `NOISE_STATE_GUARD.md`.
+- Added an explicit `high_speed_practical_pass` field to `noise_evidence.csv`; current, proposed, future-applicability, developing, research, and unresolved rows are all forced to remain `no` unless a future final-pass state is explicitly demonstrated.
+- Result: 1 current-binding row, 3 prospective/development rows, 1 research-in-progress row, 1 unresolved row, 0 final passes, and 0 semantic errors; the independent state-count check matches all seven metrics.
+- Limitation: state validation is not a legal opinion, noise model, or community-acceptance result.
+- Next hypothesis: retain noise as a temporally unstable binding gate until final standards and empirical community-response evidence are available.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
