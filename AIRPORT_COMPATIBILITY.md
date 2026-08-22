@@ -29,6 +29,11 @@ The audit records whether each determination requires candidate aircraft charact
 
 The audit contains seven rows: four established compatibility frameworks, one historical-service precedent, one prospective standard, and one explicit evidence gap. Six rows require candidate characteristics. It contains **zero current generic high-speed compatibility passes**.
 
+The source close read in [AIRPORT_COMPATIBILITY_CLOSE_READ.md](AIRPORT_COMPATIBILITY_CLOSE_READ.md)
+rechecks four framework records, one historical precedent, and one prospective
+standard. It independently reports five rows requiring candidate characteristics
+and zero generic high-speed passes.
+
 ## Conclusion
 
 Airport compatibility is unresolved for any future speed class above Mach 2. The standards framework exists, but speed alone is insufficient to evaluate compatibility. Historical Concorde service proves selective integration was possible; it does not prove that an unspecified faster aircraft would be compatible with existing airports today.

@@ -217,6 +217,14 @@
 - Limitation: public requirements do not establish a complete cabin thermal, acoustic, pressure-transient, or passenger-acceptance demonstration for faster aircraft.
 - Next hypothesis: keep cabin environment unresolved until comparable high-speed empirical evidence bridges the applicability gap.
 
+## 2026-08-22 — Phase 30: airport compatibility close read
+
+- Close-read FAA AC 150/5300-13B, FAA runway classification tools, FAA ARFF, ICAO Annex 14, historical Concorde precedent, and prospective ICAO environmental standards.
+- Result: four current framework rows, one historical precedent, one prospective-standard row, five rows requiring candidate characteristics, and zero current generic high-speed passes.
+- Independent bookkeeping reproduces all six summary metrics; no airport-specific calculation or physical specification was added.
+- Limitation: framework existence cannot close a candidate- and aerodrome-specific compatibility gap.
+- Next hypothesis: preserve airport compatibility as a conjunctive gate and avoid generating candidate characteristics to force a pass.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

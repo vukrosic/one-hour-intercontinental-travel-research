@@ -1,0 +1,7 @@
+metric,independent_value,reference_value,pass
+airport_close_read_rows,6,6,True
+current_framework_rows,4,4,True
+historical_precedent_rows,1,1,True
+prospective_standard_rows,1,1,True
+candidate_characteristics_required_rows,5,5,True
+current_generic_high_speed_pass_rows,0,0,True
