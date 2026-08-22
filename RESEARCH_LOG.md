@@ -257,6 +257,14 @@
 - Limitation: this is only an ideal total-temperature proxy and does not model heat flux, wall/cabin temperature, duration, materials, cooling, real-gas effects, or serviceability.
 - Next hypothesis: use public empirical environmental measurements to test whether the ideal ordering correlates with system-level evidence, without inferring a vehicle or protection system.
 
+## 2026-08-22 — Phase 35: current speed/time context
+
+- Applied the existing ideal sound-speed bracket to the current Mach 0.85, 0.925, and 0.935 references plus the Mach 2 historical class over the fixed mathematical yardstick.
+- Result: the certified business-aviation reference yields an 8.1% speed-only airborne-time saving versus the airline baseline; the higher manufacturer-only subsonic claim yields 9.1%; Mach 2 yields 57.5%.
+- Independent arithmetic reproduces all seven summary metrics within `1e-12`; no journey-time promise, route, or practical-status change follows.
+- Limitation: the intervals ignore winds, routing, acceleration, climb/descent, airport timing, and aircraft performance; Mach 0.935 remains a manufacturer-only claim.
+- Next hypothesis: keep the modest current-subsonic time gains separate from the much larger supersonic arithmetic benefit when evaluating non-time gates.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
