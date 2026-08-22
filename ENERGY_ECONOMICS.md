@@ -48,6 +48,8 @@ The energy gate is **contradicted for historical Concorde relative to the select
 
 `energy_independent_check.py` independently re-derives the three load-factor rows without importing the primary implementation. It agrees with `energy_intensity_results.csv` within `1e-9` in the reported units. This is arithmetic verification only; it does not remove the source comparability limitations above. See [ENERGY_INDEPENDENT_CHECK.md](ENERGY_INDEPENDENT_CHECK.md).
 
+`energy_gap_sensitivity.py` restates the same ratios as a benchmark gap: matching the modern aggregate would require a 66.9% direct-intensity reduction at 100% occupancy, increasing to 80.1% at 60% occupancy. These are comparison outputs, not design targets. See [ENERGY_GAP_SENSITIVITY.md](ENERGY_GAP_SENSITIVITY.md).
+
 ## Next hypothesis
 
 The practical frontier may lie near the lowest supersonic speed that produces meaningful time savings while avoiding the steep energy penalty of the Mach 2 historical anchor. Testing that hypothesis requires empirical data from civil supersonic demonstrators or transparent commercial studies; an abstract propulsion or vehicle design would not resolve it.

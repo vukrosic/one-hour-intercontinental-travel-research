@@ -130,6 +130,13 @@
 - Verification boundary: this is arithmetic verification only; no comfort, certification, or operational inference is added.
 - Next hypothesis: use the acceleration sensitivity as a literature-indexing aid, not as a substitute for passenger ride-quality evidence.
 
+## 2026-08-22 — Phase 19: energy-gap sensitivity
+
+- Added an arithmetic restatement of the historical Mach 2 energy comparison as a required-reduction gap to the modern benchmark.
+- Result: the implied direct-intensity reduction is 66.9% at 100% occupancy, 73.5% at 80%, and 80.1% at 60%.
+- Boundary preserved: these are benchmark gaps, not design targets or remedies.
+- Next hypothesis: pair this negative constraint with comparable empirical civil-supersonic data before attempting any broader economics inference.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
