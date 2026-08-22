@@ -102,6 +102,13 @@
 - Verification boundary: these checks validate bookkeeping and provenance hygiene, not the truth or current applicability of external claims.
 - Next hypothesis: add source hashes where practical and independently replicate one passenger/noise evidence claim before changing any practical-status label.
 
+## 2026-08-22 — Phase 15: direct-page claim replication
+
+- Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.
+- Result: all four claims are recorded with explicit “what remains unproven” fields; zero high-speed practical passes are asserted.
+- Consequence: noise and passenger-environment gates remain unresolved; no speed-matrix status changes are justified.
+- Next hypothesis: add document hashes where practical and keep dated regulatory refreshes separate from stable mathematical checks.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

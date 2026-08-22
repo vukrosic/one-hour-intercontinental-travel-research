@@ -16,6 +16,8 @@ Does current public evidence support noise certification and community acceptabi
 
 `noise_evidence_summary.py` validates the table and prevents a proposed threshold or ongoing programme from being counted as a final high-speed pass criterion.
 
+`CLAIM_REPLICATION.md` adds a dated direct-page read of the current FAA restriction, prospective FAA policy direction, NASA Quesst community-response programme, and the general EASA cabin rule. It does not change the gate status.
+
 ## Current evidence snapshot (2026-08-22)
 
 - FAA states that civil flight above Mach 1 over U.S. land remains prohibited except under special authorization.
