@@ -1,5 +1,7 @@
 # One-hour U.S.–China passenger travel: bounded public-data feasibility study
 
+> **Archive note (2026-08-22):** The door-to-door one-hour question is no longer the primary research objective. It is retained as a clearly labeled historical baseline. The active project question is now “what is the fastest practical civilian passenger airplane?” See `FAST_CIVILIAN_AIRCRAFT_RESEARCH_MAP.md`.
+
 ## Scope and safety boundary
 
 This is a civilian transport-science feasibility and simulation study. It does **not** specify a vehicle, propulsion system, trajectory, materials, manufacturing process, or operational procedure. Any numerical model is intentionally low-order and uses public, aggregate data only.

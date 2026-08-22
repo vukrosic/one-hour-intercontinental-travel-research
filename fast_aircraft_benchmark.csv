@@ -1,0 +1,13 @@
+speed_bin,basis,reference_speed_kmh,airborne_minutes,abstract_overhead_context_minutes,contextual_sum_minutes
+subsonic_reference,commercial-jet-like,900.0,632.84,15.0,647.84
+subsonic_reference,commercial-jet-like,900.0,632.84,20.0,652.84
+subsonic_reference,commercial-jet-like,900.0,632.84,30.0,662.84
+Concorde_historical,historical public benchmark,2160.0,263.68333333333334,15.0,278.68333333333334
+Concorde_historical,historical public benchmark,2160.0,263.68333333333334,20.0,283.68333333333334
+Concorde_historical,historical public benchmark,2160.0,263.68333333333334,30.0,293.68333333333334
+Mach_3_conceptual_bin,abstract comparison bin,3240.0,175.7888888888889,15.0,190.7888888888889
+Mach_3_conceptual_bin,abstract comparison bin,3240.0,175.7888888888889,20.0,195.7888888888889
+Mach_3_conceptual_bin,abstract comparison bin,3240.0,175.7888888888889,30.0,205.7888888888889
+Mach_5_conceptual_bin,abstract comparison bin,5400.0,105.47333333333334,15.0,120.47333333333334
+Mach_5_conceptual_bin,abstract comparison bin,5400.0,105.47333333333334,20.0,125.47333333333334
+Mach_5_conceptual_bin,abstract comparison bin,5400.0,105.47333333333334,30.0,135.47333333333336
