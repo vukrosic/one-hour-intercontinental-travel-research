@@ -1,6 +1,6 @@
 metric,value
-source_rows,39
-unique_source_ids,39
+source_rows,42
+unique_source_ids,42
 duplicate_source_ids,0
 blank_required_fields,0
 invalid_urls,0

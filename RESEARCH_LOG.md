@@ -233,6 +233,14 @@
 - Limitation: historical service duration and scale are not current certification, market, passenger-acceptance, energy, noise, or airport evidence; no route, design, or operational detail is inferred.
 - Next hypothesis: retain Mach 2 as the highest directly service-anchored speed class while looking for comparable public evidence before adding or promoting any faster class.
 
+## 2026-08-22 — Phase 32: current civilian high-speed programme status
+
+- Audited NASA X-59, the FAA's XB-1 special flight authorization, Boom's public XB-1/Overture announcement, and the FAA's current proposed-rule pathway.
+- Result: the structured close read separates one active research demonstrator, one experimental test authorization, one company-reported future airliner programme, and one proposed regulatory path; it records zero independently verified current passenger-service rows, zero passenger-certification rows, and zero practical passes.
+- Independent bookkeeping reproduces all eight summary metrics; the FAA source explicitly distinguishes a test authorization from airworthiness and other certification requirements.
+- Limitation: company claims, research milestones, and proposed rules are not interchangeable evidence and do not establish future delivery, reliability, economics, or passenger acceptance.
+- Next hypothesis: seek an independent certification or revenue-service record for any new civil high-speed programme before promoting it beyond the research/proposal evidence state.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

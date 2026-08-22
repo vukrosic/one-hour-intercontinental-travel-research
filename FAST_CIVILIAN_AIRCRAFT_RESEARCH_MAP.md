@@ -12,6 +12,11 @@ The primary question is: **what is the fastest practical civilian passenger airp
 
 Sources are listed with retrieval dates and claim types in `fast_aircraft_sources.csv`.
 
+The current programme-status close read in `CURRENT_PROGRAMME_CLOSE_READ.md`
+keeps research demonstrators, experimental permissions, company-reported plans,
+and proposed regulation separate from passenger service. It is a maturity audit,
+not a design comparison.
+
 ## Bounded comparison model
 
 `fast_aircraft_benchmark.py` compares abstract reference-speed classes (subsonic, Concorde-like supersonic, and faster conceptual bands) against a fixed intercontinental distance (the SFO–PEK great-circle lower bound used only as a common comparison yardstick). These are speed bins, not aircraft specifications. The primary output is airborne time at each speed. Optional non-airborne overhead values are retained only as a secondary practical-context sensitivity; there is no one-hour door-to-door target.
@@ -30,7 +35,7 @@ The model deliberately does not estimate lift, drag, heating, engine performance
 
 ## Current finding
 
-Speed alone is not the research conclusion. A Mach 2-class cruise materially reduces airborne time and has the only direct passenger-service precedent in this ledger, but the fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
+Speed alone is not the research conclusion. A Mach 2-class cruise materially reduces airborne time and has the only direct passenger-service precedent in this ledger, while current programmes remain research, experimental-test, company-reported, or proposed-regulatory evidence. The fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
 
 ## Next bounded experiments
 
