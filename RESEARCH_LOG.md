@@ -129,6 +129,15 @@
 - Limitation: “not reported” means absent from the selected public record, not physically absent. The table is a source-role guard and does not infer operating practice, range, energy, or a design.
 - Next hypothesis: re-label future time and energy comparisons by speed basis and prefer explicit cruise values when the question concerns repeatable passenger service.
 
+## 2026-08-22 — Phase 42: speed-basis time sensitivity
+
+- Applied the fixed-distance sound-speed screen separately to top/max values and explicit cruise values from the evidence-basis ledger.
+- Result: three top/max rows reach Mach 0.95 and a 10.5% speed-only saving versus Mach 0.85; four explicit-cruise rows reach Mach 0.90 and a 5.6% maximum saving. For the G700, the same screen changes from 9.1% at Mach 0.935 maximum operating Mach to 5.6% at Mach 0.90 high-speed cruise.
+- The Global 8000 remains a top-speed-only arithmetic context in this selected evidence set because no cruise value was reported there; no missing value was imputed.
+- Independent arithmetic and the full test suite pass (122 tests).
+- Limitation: the screen still excludes winds, routing, climb/descent, acceleration, fuel burn, load factor, noise, passenger comfort, and airport constraints.
+- Next hypothesis: add an energy-per-passenger comparison keyed to the same speed-basis labels, keeping top/max rows visibly conditional and explicit-cruise rows separate.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

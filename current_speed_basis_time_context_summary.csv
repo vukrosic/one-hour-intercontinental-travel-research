@@ -1,0 +1,9 @@
+metric,value
+current_speed_basis_time_context_rows,7
+top_or_max_basis_rows,3
+explicit_cruise_basis_rows,4
+highest_top_or_max_mach,0.95
+highest_explicit_cruise_mach,0.9
+highest_explicit_cruise_saving_percent,5.555555555555558
+g700_top_or_max_saving_percent,9.090909090909093
+g700_high_speed_cruise_saving_percent,5.555555555555558

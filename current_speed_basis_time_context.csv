@@ -1,0 +1,8 @@
+entry_id,aircraft_class,speed_basis,basis_interpretation,mach,derived_speed_low_kmh,derived_speed_high_kmh,airborne_time_high_minutes,airborne_time_low_minutes,speed_only_time_saving_vs_airline_percent
+SPEED-001,Boeing 787,explicit_long_range_or_typical_cruise,explicit cruise wording,0.85,870.0640508434423,970.5949286268707,654.6138752059356,586.811225982571,0.0
+SPEED-002,Bombardier Global 7500,top_or_max,top/max arithmetic only,0.925,946.8344082708049,1056.2356576233592,601.5370745135624,539.2319373893896,8.108108108108114
+SPEED-002,Bombardier Global 7500,explicit_long_range_or_typical_cruise,explicit cruise wording,0.85,870.0640508434423,970.5949286268707,654.6138752059356,586.811225982571,0.0
+SPEED-003,Gulfstream G700,top_or_max,top/max arithmetic only,0.935,957.0704559277866,1067.6544214895578,595.1035229144869,533.4647508932463,9.090909090909093
+SPEED-003,Gulfstream G700,explicit_high_speed_cruise,explicit cruise wording,0.9,921.2442891283507,1027.6887479578631,618.2464376944948,554.2106023168726,5.555555555555558
+SPEED-003,Gulfstream G700,explicit_long_range_or_typical_cruise,explicit cruise wording,0.85,870.0640508434423,970.5949286268707,654.6138752059356,586.811225982571,0.0
+SPEED-004,Bombardier Global 8000,top_or_max,top/max arithmetic only,0.95,972.4245274132589,1084.7825672888555,585.7071515000478,525.0416232475635,10.526315789473683

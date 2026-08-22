@@ -32,6 +32,10 @@ Global 8000's Mach 0.95 entry is a top-speed record, while the selected G700
 record is the only current row in this small table with an explicitly named
 high-speed-cruise value.
 
+The fixed-distance arithmetic split is reproduced in
+[`CURRENT_SPEED_BASIS_TIME_CONTEXT.md`](CURRENT_SPEED_BASIS_TIME_CONTEXT.md),
+which keeps top/max and explicit-cruise rows separate.
+
 ## Reproducibility
 
 ```text
