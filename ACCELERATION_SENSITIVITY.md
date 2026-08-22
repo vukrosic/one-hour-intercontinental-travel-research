@@ -29,3 +29,5 @@ Run `python3 acceleration_sensitivity.py` to regenerate `acceleration_sensitivit
 - The fixed distance is a comparison yardstick, not a route or operating authorization.
 - Passenger comfort, vibration, emergency cases, and certification are entirely outside scope.
 - The next safe check is an independent algebraic reproduction of this table before any interpretation is extended.
+
+The independent arithmetic reproduction is recorded in [ACCELERATION_INDEPENDENT_CHECK.md](ACCELERATION_INDEPENDENT_CHECK.md).

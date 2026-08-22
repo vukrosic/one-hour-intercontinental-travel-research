@@ -1,0 +1,13 @@
+speed_bin,speed_kmh,acceleration_fraction_g,max_absolute_delta,profile_match,pass
+subsonic_reference,900.0,0.05,0.0,True,True
+subsonic_reference,900.0,0.1,0.0,True,True
+subsonic_reference,900.0,0.2,0.0,True,True
+Concorde_historical,2160.0,0.05,0.0,True,True
+Concorde_historical,2160.0,0.1,0.0,True,True
+Concorde_historical,2160.0,0.2,0.0,True,True
+Mach_3_conceptual_bin,3240.0,0.05,0.0,True,True
+Mach_3_conceptual_bin,3240.0,0.1,0.0,True,True
+Mach_3_conceptual_bin,3240.0,0.2,0.0,True,True
+Mach_5_conceptual_bin,5400.0,0.05,0.0,True,True
+Mach_5_conceptual_bin,5400.0,0.1,0.0,True,True
+Mach_5_conceptual_bin,5400.0,0.2,0.0,True,True

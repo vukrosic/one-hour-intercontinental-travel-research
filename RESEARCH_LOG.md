@@ -123,6 +123,13 @@
 - Boundary preserved: no trajectory, geometry, route, control law, seat design, or operating procedure is generated.
 - Next hypothesis: independently reproduce the acceleration table before using it to frame passenger-environment literature questions.
 
+## 2026-08-22 — Phase 18: independent acceleration reproduction
+
+- Added a separate implementation of the 12-row abstract acceleration sensitivity table.
+- Result: all rows reproduce within `1e-12`, including the accelerate/cruise/decelerate regime labels.
+- Verification boundary: this is arithmetic verification only; no comfort, certification, or operational inference is added.
+- Next hypothesis: use the acceleration sensitivity as a literature-indexing aid, not as a substitute for passenger ride-quality evidence.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
