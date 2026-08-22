@@ -146,6 +146,14 @@
 - Limitation: these are dimensionless trend indicators, not fuel burn, drag power, heat flux, wall temperature, materials, or a candidate-aircraft model.
 - Next hypothesis: connect the speed-basis labels to empirical passenger-energy and noise evidence, preserving missing data as unresolved rather than fitting a notional design.
 
+## 2026-08-22 — Phase 44: certified subsonic noise evidence
+
+- Added an EASA Global 8000 noise-certificate row to the noise ledger, recording the public lateral, flyover, and approach EPNdB values and their listed limits.
+- Result: the noise ledger now has seven rows, including one certified subsonic aircraft-noise record; it still has zero final high-speed pass rows and retains the current U.S. en-route restriction / sonic-boom evidence gap.
+- The new row is explicitly not high-speed-specific: landing/takeoff certification data do not establish en-route sonic-boom acceptability or passenger-cabin noise.
+- Independent state counts and the full test suite pass (125 tests); no practicality-matrix status changes follow.
+- Next hypothesis: use certified subsonic noise records as empirical context for category comparisons while keeping en-route supersonic acceptance a separate unresolved gate.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

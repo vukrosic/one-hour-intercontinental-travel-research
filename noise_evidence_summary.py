@@ -55,6 +55,7 @@ def summarize(rows):
         "standards_in_development_rows": states["standards_in_development"],
         "empirical_program_in_progress_rows": states["empirical_program_in_progress"],
         "unresolved_rows": states["unresolved"],
+        "certified_subsonic_aircraft_record_rows": states["certified_subsonic_aircraft_record"],
         "final_high_speed_pass_threshold_rows": final_high_speed_pass,
     }
 

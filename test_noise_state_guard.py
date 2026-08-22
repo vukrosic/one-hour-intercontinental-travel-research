@@ -11,6 +11,7 @@ class NoiseStateGuardTests(unittest.TestCase):
         summary = summarize(load_rows())
         self.assertEqual(summary["final_high_speed_pass_rows"], 0)
         self.assertEqual(summary["semantic_error_count"], 0)
+        self.assertEqual(summary["certified_subsonic_aircraft_record_rows"], 1)
 
     def test_proposal_cannot_be_a_pass(self):
         rows = load_rows()

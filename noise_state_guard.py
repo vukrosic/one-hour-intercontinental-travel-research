@@ -26,6 +26,7 @@ ALLOWED_STATES = {
     "standards_in_development",
     "empirical_program_in_progress",
     "unresolved",
+    "certified_subsonic_aircraft_record",
     "final_pass_threshold",
     "commercial_acceptance_demonstrated",
 }
@@ -80,6 +81,9 @@ def summarize(rows):
             row["evidence_state"] == "empirical_program_in_progress" for row in rows
         ),
         "unresolved_rows": sum(row["evidence_state"] == "unresolved" for row in rows),
+        "certified_subsonic_aircraft_record_rows": sum(
+            row["evidence_state"] == "certified_subsonic_aircraft_record" for row in rows
+        ),
         "final_high_speed_pass_rows": sum(
             row["evidence_state"] in FINAL_PASS_STATES and row["high_speed_practical_pass"] == "yes"
             for row in rows

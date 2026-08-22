@@ -14,7 +14,7 @@ Does current public evidence support noise certification and community acceptabi
 4. standards still in development; and
 5. empirical research programmes still collecting evidence.
 
-`noise_evidence_summary.py` validates the table and prevents a proposed threshold or ongoing programme from being counted as a final high-speed pass criterion. `noise_state_guard.py` adds an executable semantic guard over the full state vocabulary and explicit `high_speed_practical_pass` field; see [NOISE_STATE_GUARD.md](NOISE_STATE_GUARD.md).
+`noise_evidence_summary.py` validates the table and prevents a proposed threshold or ongoing programme from being counted as a final high-speed pass criterion. `noise_state_guard.py` adds an executable semantic guard over the full state vocabulary and explicit `high_speed_practical_pass` field; see [NOISE_STATE_GUARD.md](NOISE_STATE_GUARD.md). A certified subsonic aircraft-noise record is tracked separately from high-speed en-route evidence.
 
 `CLAIM_REPLICATION.md` adds a dated direct-page read of the current FAA restriction, prospective FAA policy direction, NASA Quesst community-response programme, and the general EASA cabin rule. It does not change the gate status.
 
@@ -29,9 +29,9 @@ Does current public evidence support noise certification and community acceptabi
 
 ## Reproducible result
 
-The current audit has six rows. It contains one current binding constraint, one proposal, one developing international en-route standard, one empirical programme in progress, one prospective landing/takeoff standards row, and one unresolved cabin-noise gap. It contains **zero final high-speed pass-threshold or demonstrated commercial-acceptance rows**.
+The current audit has seven rows. It contains one current binding constraint, one proposal, one developing international en-route standard, one empirical programme in progress, one prospective landing/takeoff standards row, one unresolved cabin-noise gap, and one certified subsonic aircraft-noise record. It contains **zero final high-speed pass-threshold or demonstrated commercial-acceptance rows**.
 
-The state guard independently confirms 1 current-binding row, 3 prospective/development rows, 1 research-in-progress row, 1 unresolved row, 0 final passes, and 0 semantic errors.
+The state guard independently confirms 1 current-binding row, 3 prospective/development rows, 1 research-in-progress row, 1 unresolved row, 1 certified-subsonic aircraft-noise row, 0 final passes, and 0 semantic errors.
 
 ## Conclusion
 
@@ -45,6 +45,9 @@ This conclusion does not assert that acceptable supersonic noise is impossible. 
 - It does not model sonic-boom generation, propagation, or mitigation.
 - It does not propose compliance methods, aircraft shaping, routes, or operating procedures.
 - Cabin noise, occupational exposure, airport-specific impacts, and international jurisdiction differences need separate passes.
+- The Global 8000 record demonstrates that public certified landing/takeoff
+  noise data can exist for a current subsonic business aircraft, but it does
+  not close the en-route sonic-boom or passenger-cabin gates.
 - A proposed numerical limit is recorded only as public policy evidence, not as a design target.
 
 ## Next hypothesis

@@ -1,8 +1,9 @@
 metric,value
-total_rows,6
+total_rows,7
 current_binding_rows,1
 proposed_not_final_rows,1
 standards_in_development_rows,1
 empirical_program_in_progress_rows,1
 unresolved_rows,1
+certified_subsonic_aircraft_record_rows,1
 final_high_speed_pass_threshold_rows,0
