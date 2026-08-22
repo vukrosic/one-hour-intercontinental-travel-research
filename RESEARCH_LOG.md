@@ -193,6 +193,14 @@
 - Limitation: ideal speed of sound and phase fractions are bookkeeping sensitivities, not real-gas, aircraft-flow, passenger-comfort, or operating models.
 - Next hypothesis: use the consistent bins to compare any future public empirical evidence without mixing Mach and fixed-speed assumptions.
 
+## 2026-08-22 — Phase 27: economics evidence close read
+
+- Close-read four public NASA records and added `ECONOMICS_CLOSE_READ.md` with a structured extraction and independent summary check.
+- Result: NASA's 1988 historical comparison reports approximately three-times Concorde fuel per seat-mile and approximately twice total operating cost versus comparable-era subsonic transports; NASA's current market-study page shows economic viability remains under investigation.
+- The close read records one quantified historical row, one current research-status row, one qualitative synthesis row, zero current empirical business-case rows, and zero economic practical passes.
+- Limitation: historical operating-cost ratios and programme pages do not establish current fares, utilization, profitability, reliability, or a universal future penalty.
+- Next hypothesis: only comparable modern public cost data could move the economics gate; until then retain adverse historical evidence and unresolved future status.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

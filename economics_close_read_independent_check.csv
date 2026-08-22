@@ -1,0 +1,8 @@
+metric,independent_value,reference_value,pass
+economics_close_read_rows,4,4,True
+quantified_historical_rows,1,1,True
+current_market_research_rows,1,1,True
+qualitative_synthesis_rows,1,1,True
+historical_adverse_rows,1,1,True
+current_empirical_business_case_rows,0,0,True
+economic_pass_rows,0,0,True

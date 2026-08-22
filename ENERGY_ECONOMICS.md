@@ -29,7 +29,7 @@ The derived modern long-haul comparison is approximately 2,257 Btu/passenger-mil
 
 Even under the favorable 100%-occupied assumption, the public Concorde cruise proxy is roughly three times the modern long-haul aggregate energy and direct CO2 per passenger-mile. Lower occupancy worsens the result inversely. This supports a strong negative constraint: a speed class at or above Mach 2 needs a substantial efficiency improvement merely to approach current long-haul passenger energy intensity.
 
-Historical NASA work independently described Concorde’s operating economics as uncompetitive and reported total operating cost around twice that of similar-technology subsonic transport. That historical comparison corroborates the direction of the energy result, but it is not a current business case.
+Historical NASA work described Concorde’s operating economics as uncompetitive and reported total operating cost around twice that of similar-technology subsonic transport. The primary-source close read is recorded in [ECONOMICS_CLOSE_READ.md](ECONOMICS_CLOSE_READ.md). That historical comparison corroborates the direction of the energy result, but it is not a current business case.
 
 ## Limitations
 
