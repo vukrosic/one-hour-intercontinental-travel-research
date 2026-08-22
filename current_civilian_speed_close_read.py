@@ -12,6 +12,7 @@ REQUIRED_COLUMNS = {
     "entry_id",
     "source_id",
     "speed_source_id",
+    "certification_source_id",
     "aircraft_class",
     "civilian_scope",
     "service_state",
@@ -52,6 +53,8 @@ def load_rows(path=INPUT):
                 raise ValueError(f"blank {field} for {entry_id}")
         if row["speed_source_id"] == row["source_id"] and row["source_id"] == "BOEING_787_2026":
             raise ValueError("Boeing service and speed provenance must remain separate")
+        if row["service_state"] == "current_certified_in_service" and row["certification_source_id"] == "not_applicable":
+            raise ValueError(f"certification source required for {entry_id}")
         if row["service_state"] not in ALLOWED_SERVICE_STATES:
             raise ValueError(f"unknown service state: {entry_id}")
         if row["evidence_state"] not in ALLOWED_EVIDENCE_STATES:

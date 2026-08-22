@@ -19,7 +19,7 @@ Mach 0.925, and retain Mach 0.935 as a conditional marketed upper reference.
 | Record | Extracted claim | Evidence state |
 |---|---|---|
 | Boeing 787 (`BOEING_787_2026` + `Boeing_787_SPEED_2024`) | Boeing's current fleet page supports the service context, while a separate airport-characteristics record publishes Mach 0.85 as the commercial-transport cruise reference. | Current airline-service baseline with explicit split provenance. |
-| Bombardier Global 7500 (`BOMBARDIER_GLOBAL7500_EPD`) | Bombardier's public environmental declaration lists a type certificate, 2018 certification and entry into service, and a 0.925 Mach top speed. | Current certified business-aviation anchor. |
+| Bombardier Global 7500 (`BOMBARDIER_GLOBAL7500_EPD` + `TCCA_G7500_2025`) | Bombardier's public environmental declaration supplies the 0.925 Mach top-speed record, while Transport Canada's 2025 operational-evaluation report identifies the Global 7500 / BD-700-2A12 type certificate A-177. | Current certified business-aviation anchor with separate regulator provenance. |
 | Gulfstream G700 (`GULFSTREAM_G700_2026`) | Gulfstream's current product page lists Mach 0.935 maximum operating Mach and Mach 0.90 high-speed cruise. | Manufacturer-only performance claim; service/certification not independently verified in this close read. |
 
 The structured extraction is in

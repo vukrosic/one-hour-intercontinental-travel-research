@@ -280,6 +280,14 @@
 - Limitation: the new row is a scope correction, not a claim that business-aviation service is equivalent to airline capacity, economics, or airport compatibility.
 - Next hypothesis: preserve category-specific reference rows whenever a gate's evidence depends on service class, while keeping the practicality screen conjunctive and non-scalar.
 
+## 2026-08-22 — Phase 38: Global 7500 regulator provenance
+
+- Added Transport Canada's 2025 G7500 operational-evaluation report as a separate certification source for the current business-aviation reference.
+- Updated `current_civilian_speed_close_read.csv` with an explicit `certification_source_id`; the speed source remains Bombardier's public product/environmental record.
+- Result: the Mach 0.925 reference now has regulator type-certificate provenance (A-177 / BD-700-2A12) without changing any numerical result or practical-status label.
+- Limitation: type-certificate evidence does not establish every operational, economic, passenger-comfort, or airport gate for a category-wide claim.
+- Next hypothesis: preserve separate regulator, service, and performance-source roles for each benchmark row.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
