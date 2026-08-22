@@ -265,6 +265,14 @@
 - Limitation: the intervals ignore winds, routing, acceleration, climb/descent, airport timing, and aircraft performance; Mach 0.935 remains a manufacturer-only claim.
 - Next hypothesis: keep the modest current-subsonic time gains separate from the much larger supersonic arithmetic benefit when evaluating non-time gates.
 
+## 2026-08-22 — Phase 36: current-speed provenance hardening
+
+- Audited the Boeing 787 close-read row and separated its current fleet/service source from its Mach 0.85 airport-characteristics speed source.
+- Added `BOEING_787_SPEED_2024` to the source register and an explicit `speed_source_id` field; regenerated the current speed, time, and thermal context outputs.
+- Result: all numerical summaries are unchanged, source-register hygiene remains clean at 46 unique rows, and the full suite remains green at 116 tests.
+- Limitation: source provenance checks validate bookkeeping, not the truth of manufacturer claims or certification status.
+- Next hypothesis: repeat this claim-to-source split wherever a single public page is currently carrying more than one evidence role.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

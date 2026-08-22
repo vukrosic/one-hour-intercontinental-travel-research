@@ -11,6 +11,7 @@ OUTPUT = "current_civilian_speed_close_read_summary.csv"
 REQUIRED_COLUMNS = {
     "entry_id",
     "source_id",
+    "speed_source_id",
     "aircraft_class",
     "civilian_scope",
     "service_state",
@@ -49,6 +50,8 @@ def load_rows(path=INPUT):
         for field in REQUIRED_COLUMNS:
             if not row[field].strip():
                 raise ValueError(f"blank {field} for {entry_id}")
+        if row["speed_source_id"] == row["source_id"] and row["source_id"] == "BOEING_787_2026":
+            raise ValueError("Boeing service and speed provenance must remain separate")
         if row["service_state"] not in ALLOWED_SERVICE_STATES:
             raise ValueError(f"unknown service state: {entry_id}")
         if row["evidence_state"] not in ALLOWED_EVIDENCE_STATES:
