@@ -160,6 +160,14 @@
 - Limitation: gamma sensitivity does not model real-gas chemistry, boundary layers, wall temperature, heat flux, materials, cooling, or serviceability.
 - Next hypothesis: use comparable empirical high-speed environmental data to test whether the robust ideal ordering has any system-level correlate; until then, keep thermal status unresolved.
 
+## 2026-08-22 — Phase 23: historical energy input stress test
+
+- Added a deterministic ±10% one-factor and all-factor stress test around the pinned historical fuel-use, speed, seat-capacity, and modern-benchmark inputs.
+- Result: the all-favorable stress still leaves the historical proxy at 2.04x, 2.55x, and 3.40x the modern direct-CO2 benchmark at 100%, 80%, and 60% occupancy respectively.
+- Independent reproduction matches all 33 rows within `1e-12`; the energy-gate status remains unchanged.
+- Limitation: the bracket is not a statistical uncertainty interval and does not repair historical-versus-modern data comparability or represent a future aircraft.
+- Next hypothesis: prioritize comparable empirical civil-supersonic energy data; otherwise preserve the historical contradiction and avoid extrapolating it into a universal impossibility claim.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
