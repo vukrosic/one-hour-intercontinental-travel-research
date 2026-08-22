@@ -168,6 +168,14 @@
 - Limitation: the bracket is not a statistical uncertainty interval and does not repair historical-versus-modern data comparability or represent a future aircraft.
 - Next hypothesis: prioritize comparable empirical civil-supersonic energy data; otherwise preserve the historical contradiction and avoid extrapolating it into a universal impossibility claim.
 
+## 2026-08-22 — Phase 24: acceleration-adjusted time savings
+
+- Added a derived 12-row comparison of speed-only versus acceleration-adjusted airborne-time savings using the existing abstract kinematic table.
+- Result: at 0.05g, the speed-only saving falls from 58.3% to 55.7% for the Mach 2 historical bin, from 72.2% to 67.8% for Mach 3, and from 83.3% to 75.6% for Mach 5; all faster bins remain faster than the subsonic reference in the screen.
+- Independent reproduction matches all 12 rows within `1e-12`.
+- Limitation: the result uses declared constant-acceleration sensitivity inputs and cannot establish comfort, certification, or operational feasibility.
+- Next hypothesis: connect the time-savings arithmetic to transferable passenger ride-quality evidence without inventing a universal acceleration threshold.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
