@@ -148,6 +148,7 @@
 
 - Added a transferability-aware map of six public passenger-ride, cabin-noise, certification, and community-noise sources.
 - Result: the map reports zero high-speed practical passes and keeps historical empirical studies, current research, and certification guidance in separate categories.
+- Refinement: NASA's 2026 air-taxi study is recorded as recent empirical work, while Quesst remains research in progress; the distinction avoids overstating the status of either.
 - Limitation: no source supplies a universal speed-specific acceleration, vibration, or noise threshold.
 - Next hypothesis: close-read the highest-transferability entries before introducing any passenger-environment threshold into a model.
 

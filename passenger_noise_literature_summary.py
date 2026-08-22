@@ -40,6 +40,7 @@ def summarize(rows):
         "noise_rows": sum(row["domain"] in {"cabin noise and vibration", "community noise"} for row in rows),
         "certification_context_rows": sum(row["evidence_state"] == "certification_guidance" for row in rows),
         "empirical_historical_rows": sum(row["evidence_state"] == "empirical_historical" for row in rows),
+        "empirical_recent_rows": sum(row["evidence_state"] == "empirical_recent" for row in rows),
         "research_in_progress_rows": sum(row["evidence_state"] == "research_in_progress" for row in rows),
         "high_speed_practical_pass_rows": sum(row["high_speed_practical_pass"] == "yes" for row in rows),
         "medium_or_low_transferability_rows": sum(

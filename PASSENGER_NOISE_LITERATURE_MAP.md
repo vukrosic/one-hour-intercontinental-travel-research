@@ -11,7 +11,7 @@ This map organizes public studies by what they measure and how far their context
 
 ## Reproducible result
 
-`passenger_noise_literature_summary.py` covers six public entries: four passenger-ride or cabin/certification contexts and two noise contexts. It records zero high-speed practical passes. Three entries are historical empirical studies, one is current research in progress, and one is certification guidance; transferability is explicitly marked rather than assumed.
+`passenger_noise_literature_summary.py` covers six public entries: four passenger-ride or cabin/certification contexts and two noise contexts. It records zero high-speed practical passes. Three entries are historical empirical studies, one is recent empirical work, one is current research in progress, and one is certification guidance; transferability is explicitly marked rather than assumed.
 
 ## Findings
 
