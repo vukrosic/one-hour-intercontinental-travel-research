@@ -1,0 +1,5 @@
+reference_id,reference_label,mach,reference_scope,ideal_total_to_static_temperature_ratio,ideal_total_temperature_low_K,ideal_total_temperature_high_K
+SPEED-001,Boeing 787,0.85,current civilian reference,1.1444999999999999,247.95592499999998,286.52557499999995
+SPEED-002,Bombardier Global 7500,0.925,current civilian reference,1.171125,253.72423125,293.19114375
+SPEED-003,Gulfstream G700,0.935,current civilian reference,1.174845,254.53016925,294.12244575
+MACH2_HISTORICAL,Mach 2 historical service class,2.0,historical comparison,1.7999999999999998,389.96999999999997,450.62999999999994

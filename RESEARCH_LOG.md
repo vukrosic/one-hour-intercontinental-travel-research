@@ -249,6 +249,14 @@
 - Limitation: top speed, maximum operating Mach, and normal cruise are distinct measures; business-aviation service is not interchangeable with airline capacity or economics.
 - Next hypothesis: preserve separate airline and business-aviation baselines in future time/energy comparisons instead of silently treating Mach 0.85 as the only current civilian reference.
 
+## 2026-08-22 — Phase 34: current-speed thermal context
+
+- Reused the frozen ideal total-temperature relation and standard-atmosphere interval for the current Mach 0.85, 0.925, and 0.935 references, with a Mach 2 historical comparison row.
+- Result: the ideal Mach 2 lower bound is 390.0 K versus 294.1 K for the highest current-reference upper bound, a ratio of 1.326; the lower bound remains higher across the entire declared interval.
+- Independent arithmetic reproduces all seven summary metrics within `1e-12`; no thermal gate status changes follow.
+- Limitation: this is only an ideal total-temperature proxy and does not model heat flux, wall/cabin temperature, duration, materials, cooling, real-gas effects, or serviceability.
+- Next hypothesis: use public empirical environmental measurements to test whether the ideal ordering correlates with system-level evidence, without inferring a vehicle or protection system.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
