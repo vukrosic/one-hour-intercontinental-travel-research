@@ -101,3 +101,10 @@
 - Result: all seven airport metrics match exactly; the source register has unique IDs, nonblank required fields, valid HTTP(S) URLs, and ISO access dates.
 - Verification boundary: these checks validate bookkeeping and provenance hygiene, not the truth or current applicability of external claims.
 - Next hypothesis: add source hashes where practical and independently replicate one passenger/noise evidence claim before changing any practical-status label.
+
+## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
+
+- Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
+- Result: the refresh reports zero high-speed practical passes; current FAA restriction context, future policy direction, and NASA community-response research are not interchangeable evidence.
+- Limitation: web-page observations are not legal advice or final certification evidence and require rechecking before reuse.
+- Next hypothesis: add source hashes where practical and independently replicate one passenger/noise evidence claim before changing any practical-status label.

@@ -26,3 +26,5 @@ FAA_AIRPORT_DESIGN,FAA AC 150/5300-13B Airport Design,https://www.faa.gov/airpor
 FAA_RUNWAY_MATRIX,FAA Runway Design Standards Matrix,https://www.faa.gov/airports/engineering/airport_design/rdsm/index.cfm,"Aircraft Approach Category and Airplane Design Group classification context",2026-08-22
 FAA_ARFF,FAA Aircraft Rescue and Fire Fighting,https://www.faa.gov/airports/airport_safety/aircraft_rescue_fire_fighting,"Part 139 ARFF service and index framework",2026-08-22
 ICAO_ANNEX14,ICAO Annex 14 Aerodromes Volume I,https://store.icao.int/en/annex-14-aerodromes,"Aerodrome physical characteristics facilities technical services and future-aircraft evaluation context",2026-08-22
+FAA_SUPERSONIC_OVERVIEW,FAA Supersonic Flight overview,https://www.faa.gov/supersonic,"Policy direction toward noise-based supersonic certification; not a final overland operating rule",2026-08-22
+NASA_QUESST_MISSION,NASA Quesst mission page,https://www.nasa.gov/mission/quesst/,"Community-response data collection to inform future acceptable supersonic noise thresholds",2026-08-22
