@@ -1,0 +1,9 @@
+metric,independent_value,reference_value,pass
+current_civilian_speed_close_read_rows,3,3,True
+current_airline_service_rows,1,1,True
+current_certified_business_aviation_rows,1,1,True
+manufacturer_only_rows,1,1,True
+service_anchored_rows,2,2,True
+highest_published_subsonic_mach,0.935,0.935,True
+highest_service_anchored_mach,0.925,0.925,True
+speed_frontier_pass_rows,0,0,True

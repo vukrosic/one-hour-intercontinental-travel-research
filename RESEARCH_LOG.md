@@ -241,6 +241,14 @@
 - Limitation: company claims, research milestones, and proposed rules are not interchangeable evidence and do not establish future delivery, reliability, economics, or passenger acceptance.
 - Next hypothesis: seek an independent certification or revenue-service record for any new civil high-speed programme before promoting it beyond the research/proposal evidence state.
 
+## 2026-08-22 — Phase 33: current civilian speed-reference split
+
+- Close-read Boeing's 787 fleet/speed record, Bombardier's Global 7500 public certification/service declaration, and Gulfstream's current G700 performance page.
+- Result: the table separates one current airline-service row (Mach 0.85), one certified in-service business-aviation row (Mach 0.925), and one manufacturer-only higher subsonic claim (Mach 0.935). The highest service-anchored reference is therefore Mach 0.925; the highest published value is conditional at Mach 0.935.
+- Independent bookkeeping reproduces all eight metrics; no speed-frontier practical pass is asserted and no existing supersonic status changes.
+- Limitation: top speed, maximum operating Mach, and normal cruise are distinct measures; business-aviation service is not interchangeable with airline capacity or economics.
+- Next hypothesis: preserve separate airline and business-aviation baselines in future time/energy comparisons instead of silently treating Mach 0.85 as the only current civilian reference.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

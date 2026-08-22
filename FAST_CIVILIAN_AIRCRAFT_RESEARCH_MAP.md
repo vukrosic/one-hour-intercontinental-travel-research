@@ -7,6 +7,7 @@ The primary question is: **what is the fastest practical civilian passenger airp
 ## Benchmark anchors
 
 - **Historical Mach 2 service:** British Airways documents Concorde's sustained passenger service at 1,350 mph (2,160 km/h, Mach 2), while NASA documents a separate, limited Tu-144 airline passenger service that ended after 102 flights. `HISTORICAL_SERVICE_CLOSE_READ.md` keeps the durable Concorde precedent separate from the limited Tu-144 record and from later research-only Tu-144LL flights. These are historical anchors, not templates to reproduce.
+- **Current subsonic references:** `CURRENT_CIVILIAN_SPEED_CLOSE_READ.md` separates a Mach 0.85 airline-service baseline, a certified in-service Mach 0.925 business-aviation anchor, and a conditional Mach 0.935 manufacturer-only performance claim.
 - **NASA X-59 / Quesst:** NASA describes X-59 as a research aircraft intended to collect community-response and acoustic data for future quiet-supersonic rules. It is evidence that noise acceptance is an unresolved verification gate, not evidence of commercial readiness.
 - **Regulatory context:** FAA material records that civil supersonic flight over land in the United States has been prohibited since 1973, while current research may inform future rulemaking.
 
@@ -35,7 +36,7 @@ The model deliberately does not estimate lift, drag, heating, engine performance
 
 ## Current finding
 
-Speed alone is not the research conclusion. A Mach 2-class cruise materially reduces airborne time and has the only direct passenger-service precedent in this ledger, while current programmes remain research, experimental-test, company-reported, or proposed-regulatory evidence. The fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
+Speed alone is not the research conclusion. A Mach 2-class cruise materially reduces airborne time and has the only direct passenger-service precedent in this ledger, while current programmes remain research, experimental-test, company-reported, or proposed-regulatory evidence. The current subsonic frontier also splits by service class: airline operations cluster near Mach 0.85, while certified business aviation reaches higher subsonic values. The fastest practical civilian aircraft is bounded by noise acceptance, energy per passenger, passenger comfort, airport compatibility, and certification evidence. Faster abstract speed bands are hypotheses to test, not recommendations. The next useful result is therefore a gate-by-gate evidence matrix, not a faster notional aircraft.
 
 ## Next bounded experiments
 
