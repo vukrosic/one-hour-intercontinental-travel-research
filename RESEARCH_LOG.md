@@ -152,6 +152,14 @@
 - Limitation: no source supplies a universal speed-specific acceleration, vibration, or noise threshold.
 - Next hypothesis: close-read the highest-transferability entries before introducing any passenger-environment threshold into a model.
 
+## 2026-08-22 — Phase 22: ideal thermal gamma sensitivity
+
+- Added a bounded robustness check that varies the ideal-gas parameter from `gamma=1.30` to `1.40` while keeping the existing generic static-temperature interval and Mach bins.
+- Result: the Mach 3 lower ideal total-temperature bound remains above the Mach 2 upper bound in both scenarios (509.1 K > 400.6 K at gamma 1.30; 606.6 K > 450.6 K at gamma 1.40).
+- Independent reproduction matches all 12 rows within the committed decimal representation; no practical-status label changes follow.
+- Limitation: gamma sensitivity does not model real-gas chemistry, boundary layers, wall temperature, heat flux, materials, cooling, or serviceability.
+- Next hypothesis: use comparable empirical high-speed environmental data to test whether the robust ideal ordering has any system-level correlate; until then, keep thermal status unresolved.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
