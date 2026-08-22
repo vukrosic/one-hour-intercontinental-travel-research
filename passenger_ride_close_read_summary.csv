@@ -1,0 +1,8 @@
+metric,value
+close_read_rows,6
+empirical_rows,2
+frequency_explicit_rows,2
+multi_factor_rows,3
+medium_or_low_transferability_rows,5
+speed_specific_threshold_rows,0
+high_speed_practical_pass_rows,0

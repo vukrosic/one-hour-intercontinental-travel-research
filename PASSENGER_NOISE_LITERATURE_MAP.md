@@ -22,4 +22,4 @@ This map organizes public studies by what they measure and how far their context
 
 ## Next safe use
 
-Use this map to select papers for close reading and transferability review. Do not collapse the entries into a single acceleration, vibration, or noise number, and do not change the practicality matrix until a speed-relevant public threshold is actually demonstrated.
+The first close read is recorded in [PASSENGER_RIDE_CLOSE_READ.md](PASSENGER_RIDE_CLOSE_READ.md). Do not collapse the entries into a single acceleration, vibration, or noise number, and do not change the practicality matrix until a speed-relevant public threshold is actually demonstrated.

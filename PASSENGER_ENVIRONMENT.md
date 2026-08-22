@@ -43,6 +43,4 @@ The passenger-environment gate is not failed, but it is unresolved above Mach 2.
 
 ## Next hypothesis
 
-A practical speed class above Mach 2 would need empirical ride-quality and cabin-environment evidence specific enough to bridge the gap between general certification requirements and actual passenger acceptance. The next passenger-focused pass should test whether aerospace-medicine and ride-quality literature supplies such transferable evidence.
-
-The current literature map does not close that gap; it is an indexing and category-separation artifact only.
+The close read in [PASSENGER_RIDE_CLOSE_READ.md](PASSENGER_RIDE_CLOSE_READ.md) confirms that public studies provide frequency-dependent and multi-factor measurement methods but no demonstrated speed-specific threshold. A practical speed class above Mach 2 would therefore need new or more directly comparable empirical ride-quality and cabin-environment evidence to bridge the gap between general certification requirements and actual passenger acceptance.

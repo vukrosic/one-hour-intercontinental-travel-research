@@ -176,6 +176,14 @@
 - Limitation: the result uses declared constant-acceleration sensitivity inputs and cannot establish comfort, certification, or operational feasibility.
 - Next hypothesis: connect the time-savings arithmetic to transferable passenger ride-quality evidence without inventing a universal acceleration threshold.
 
+## 2026-08-22 — Phase 25: passenger ride-quality close read
+
+- Close-read six public NASA/FAA records and added `PASSENGER_RIDE_CLOSE_READ.md` plus a structured extraction table.
+- Result: historical large-transport and simulator studies demonstrate frequency-, axis-, and multi-factor passenger-response methods, but the close read finds zero demonstrated speed-specific comfort thresholds and zero high-speed practical passes.
+- Independent bookkeeping reproduces all seven summary metrics; two records expose frequency ranges and three explicitly describe multi-factor or combined-stimulus evidence.
+- Limitation: study-specific curves, pilot buffeting guidance, and recent subsonic air-taxi work cannot be promoted to a universal faster-aircraft serviceability limit.
+- Next hypothesis: seek a public study with a demonstrated high-speed passenger-context bridge; otherwise retain passenger comfort as unresolved.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
