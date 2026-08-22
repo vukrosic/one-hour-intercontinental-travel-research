@@ -137,6 +137,13 @@
 - Boundary preserved: these are benchmark gaps, not design targets or remedies.
 - Next hypothesis: pair this negative constraint with comparable empirical civil-supersonic data before attempting any broader economics inference.
 
+## 2026-08-22 — Phase 20: practicality semantic guard
+
+- Added a validator that enforces the matrix's conjunctive semantics and prevents unresolved, contradicted, or adverse rows from being labeled a practical pass.
+- Result: all four current speed-class rows pass the semantic checks; no status changes were made.
+- Boundary preserved: this is editorial/reproducibility infrastructure, not a weighted ranking or a physical feasibility proof.
+- Next hypothesis: keep the guard in the test suite as new evidence rows are added.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.
