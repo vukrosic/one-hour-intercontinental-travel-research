@@ -23,3 +23,11 @@
 - Negative/limiting result: marginal time saved per incremental kinetic-energy proxy declines from about 0.390 for M0.85→M1 to 0.005 for M3→M5, roughly a 76-fold reduction.
 - Preserved the result without inventing a scalar “practicality score” or selecting an optimum Mach number.
 - Next hypothesis: empirical noise, passenger-environment, and actual energy-intensity evidence—not speed arithmetic—will decide whether any class above the historical Mach 2 anchor is practical.
+
+## 2026-08-22 — Phase 4: passenger environment evidence audit
+
+- Added a structured passenger-environment evidence table with cabin pressure, ventilation, cruise buffet, ride-comfort research, and crashworthiness categories.
+- Added a validator/summary script and tests that prevent emergency crash limits from being reused as comfort thresholds.
+- Result: public transport-aircraft sources provide quantitative cabin requirements, but this pass found zero supported high-speed-specific passenger comfort thresholds.
+- Negative/evidence-gap result: the passenger gate cannot yet verify practicality above Mach 2; general certification requirements are necessary but insufficient.
+- Next hypothesis: aerospace-medicine and ride-quality literature may supply transferable thresholds, but their applicability must be demonstrated rather than assumed.
