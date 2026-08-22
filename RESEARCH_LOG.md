@@ -48,3 +48,12 @@
 - Negative result: the historical Mach 2 anchor fails the selected modern energy-intensity benchmark even under favorable occupancy.
 - Historical NASA economics evidence points in the same adverse direction but does not establish a current business case.
 - Next hypothesis: the practical frontier may favor a lower supersonic speed class if empirical evidence can show meaningful time savings without the Mach 2 energy penalty.
+
+## 2026-08-22 — Phase 7: bounded ideal thermal sensitivity
+
+- Added a sourced standard-atmosphere input ledger and tested ideal total-temperature interval model.
+- Result: the Mach 2 interval is approximately 390–451 K, Mach 3 is 607–701 K, and Mach 5 is 1,300–1,502 K under the frozen 216.65–250.35 K static range.
+- The Mach 3 lower bound exceeds the Mach 2 upper bound across the full sensitivity interval.
+- Limiting result: thermal burden changes regime faster than fixed-distance time benefit, while empirical serviceability evidence remains absent.
+- Preserved strict boundaries: no wall temperature, heat flux, material, geometry, cooling, altitude, or trajectory inference.
+- Next hypothesis: the Mach 2→3 thermal step may be a stronger practicality discriminator than its time saving.

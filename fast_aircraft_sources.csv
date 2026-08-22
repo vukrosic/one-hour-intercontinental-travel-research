@@ -21,3 +21,4 @@ NASA_QUESST_2026,NASA Quesst current mission blog,https://www.nasa.gov/blogs/que
 BTS_ENERGY_INTENSITY,BTS energy intensity of certificated air carriers,https://www.bts.gov/content/energy-intensity-certificated-air-carriers-all-services,"Jet-fuel heat and unit conversion factors; aggregate-method context",2026-08-22
 EIA_JET_CO2,EIA carbon dioxide emissions coefficients,https://www.eia.gov/environment/emissions/co2_vol_mass.php,"Direct-combustion jet-fuel CO2 factor",2026-08-22
 EPA_GHG_2024,EPA 2024 greenhouse gas inventory factors,https://www.epa.gov/system/files/documents/2024-02/ghg-emission-factors-hub-2024.pdf,"Long-haul passenger air-travel direct CO2 comparison factor based on 2019 data",2026-08-22
+NASA_STANDARD_ATMOSPHERE,NASA standard atmosphere tables,https://ntrs.nasa.gov/citations/19930090991,"Public static-temperature values used for a generic sensitivity interval",2026-08-22

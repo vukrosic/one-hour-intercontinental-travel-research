@@ -1,0 +1,4 @@
+key,value,unit,source_id,role,limitation
+static_temperature_low,216.65,K,NASA_STANDARD_ATMOSPHERE,"lower bound of generic standard-atmosphere sensitivity interval","Not an operating altitude or weather forecast"
+static_temperature_high,250.35,K,NASA_STANDARD_ATMOSPHERE,"upper bound of generic standard-atmosphere sensitivity interval","Not an operating altitude or weather forecast"
+gamma,1.4,dimensionless,NASA_ISENTROPIC,"calorically perfect air approximation","Becomes less representative as temperature rises"
