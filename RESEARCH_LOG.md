@@ -80,3 +80,10 @@
 - Result: all rows pass at an absolute tolerance of `1e-9`; the energy gate's arithmetic is independently reproduced.
 - Verification boundary: source accuracy, historical-versus-modern comparability, and all non-energy gates remain open.
 - Next hypothesis: independently reproduce the bounded thermal sensitivity before extending the speed envelope.
+
+## 2026-08-22 — Phase 11: independent thermal reproduction
+
+- Added a separate thermal check that re-reads the frozen atmosphere interval and Mach bins and compares ratio and temperature bounds with the committed output.
+- Result: all six Mach rows pass at an absolute tolerance of `1e-12`.
+- Verification boundary: the check validates arithmetic only; ideal-gas, standard-atmosphere, and system-level serviceability limitations remain unresolved.
+- Next hypothesis: independently reproduce the fixed-distance speed-tradeoff model to test the diminishing-return result before adding new physics.

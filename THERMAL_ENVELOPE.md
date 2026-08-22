@@ -50,6 +50,10 @@ This makes the thermal burden concrete without designing a vehicle. Mach 2 alrea
 
 The thermal gate remains unresolved, but its high-level trend is now supported by both dimensionless and bounded-temperature calculations. Public empirical evidence would be required to connect these ideal total temperatures to passenger-aircraft serviceability. No material or vehicle inference is justified from this model.
 
+## Verification checkpoint
+
+`thermal_independent_check.py` independently re-derives the ideal relation and reproduces all six committed rows within `1e-12`. This validates arithmetic and frozen inputs only; it does not validate the calorically perfect-gas approximation or the application of the ideal proxy to an aircraft.
+
 ## Next hypothesis
 
 The thermal step from Mach 2 to Mach 3 may be a stronger practical discriminator than the associated fixed-distance time saving. Testing that safely requires public empirical programme data or system-level environmental limits, not material selection or thermal-protection design.
