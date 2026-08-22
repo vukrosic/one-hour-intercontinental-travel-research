@@ -102,6 +102,11 @@ def summarize(rows):
             for row in rows
             if row["reference_id"] == "SPEED-003"
         ),
+        "g8000_reference_saving_percent": next(
+            row["speed_only_time_saving_vs_airline_percent"]
+            for row in rows
+            if row["reference_id"] == "SPEED-004"
+        ),
         "mach2_speed_only_saving_percent": mach2["speed_only_time_saving_vs_airline_percent"],
     }
 

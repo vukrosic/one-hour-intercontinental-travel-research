@@ -112,6 +112,16 @@
 - Limitation: certification and charter service establish a real civilian reference, not airline capacity, normal-cruise performance, economics, passenger acceptance, noise compliance, or a universal fastest-practical ranking.
 - Next hypothesis: use the now-certified G700 and Global 7500 as separate high-subsonic empirical anchors when testing passenger-comfort, energy, noise, and airport-compatibility evidence, without extrapolating their maximum operating speeds into a new aircraft design.
 
+## 2026-08-22 — Phase 40: Global 8000 current-frontier correction
+
+- A fresh public-source search found a material post-2025 change omitted from the prior close read: Bombardier's Global 8000 entered service in December 2025, received Transport Canada type certification on 2025-11-05, FAA certification on 2025-12-19, and EASA certification recorded on 2026-01-23.
+- Added a fourth current-speed row at Mach 0.95 with separate performance, certification, and first-delivery/service source roles. Added the Global 8000 as a non-ranked certified business-aviation reference in the practicality matrix.
+- Correction: the G700 is no longer the fastest service-anchored civilian subsonic reference in this ledger. The Global 8000 now holds that evidence position, while Mach 0.85 remains the airline reference and Mach 0.925/0.935 remain distinct business-aviation anchors.
+- Regenerated speed, ideal time, thermal, practicality, and source-integrity outputs. The fixed-distance speed-only savings versus Mach 0.85 are 8.1% (Global 7500), 9.1% (G700), 10.5% (Global 8000), and 57.5% (Mach 2).
+- Independent checks and the full test suite pass (116 tests); source-register hygiene is clean at 53 unique rows.
+- Limitation: the Global 8000 evidence is a current certified business-aircraft reference, not airline capacity, normal-cruise performance, economics, passenger acceptance, noise compliance, or a universal fastest-practical ranking. The Mach 0.95 claim is a top-speed reference.
+- Next hypothesis: compare top-speed and explicit high-speed-cruise records across the current business-aviation anchors before using any value in passenger-time or energy modeling.
+
 ## 2026-08-22 — Phase 15: direct-page claim replication
 
 - Independently reread four primary public pages covering current restriction, prospective FAA policy, NASA Quesst research, and EASA cabin requirements.

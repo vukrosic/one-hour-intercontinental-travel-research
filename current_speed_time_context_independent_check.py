@@ -49,7 +49,8 @@ def independently_summarize():
         "airline_reference_saving_percent": savings[0],
         "global7500_reference_saving_percent": savings[1],
         "g700_reference_saving_percent": savings[2],
-        "mach2_speed_only_saving_percent": savings[3],
+        "g8000_reference_saving_percent": savings[3],
+        "mach2_speed_only_saving_percent": savings[4],
     }
 
 

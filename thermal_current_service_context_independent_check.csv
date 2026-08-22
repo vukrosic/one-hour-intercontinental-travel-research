@@ -1,8 +1,8 @@
 metric,independent_value,reference_value,absolute_delta,pass
-thermal_current_service_context_rows,4,4,0,True
-current_reference_rows,3,3,0,True
+thermal_current_service_context_rows,5,5,0,True
+current_reference_rows,4,4,0,True
 mach2_comparison_rows,1,1,0,True
 mach2_lower_bound_K,389.96999999999997,389.96999999999997,0.0,True
-highest_current_reference_upper_bound_K,294.12244575,294.12244575,0.0,True
-mach2_lower_to_highest_current_upper_ratio,1.3258763675978305,1.3258763675978305,0.0,True
+highest_current_reference_upper_bound_K,295.53817499999997,295.53817499999997,0.0,True
+mach2_lower_to_highest_current_upper_ratio,1.3195249649220444,1.3195249649220444,0.0,True
 mach2_lower_exceeds_highest_current_upper,1,1,0,True

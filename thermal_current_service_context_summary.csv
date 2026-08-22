@@ -1,8 +1,8 @@
 metric,value
-thermal_current_service_context_rows,4
-current_reference_rows,3
+thermal_current_service_context_rows,5
+current_reference_rows,4
 mach2_comparison_rows,1
 mach2_lower_bound_K,389.96999999999997
-highest_current_reference_upper_bound_K,294.12244575
-mach2_lower_to_highest_current_upper_ratio,1.3258763675978305
+highest_current_reference_upper_bound_K,295.53817499999997
+mach2_lower_to_highest_current_upper_ratio,1.3195249649220444
 mach2_lower_exceeds_highest_current_upper,1

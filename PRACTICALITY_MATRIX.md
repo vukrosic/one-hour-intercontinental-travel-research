@@ -2,10 +2,10 @@
 
 ## Purpose
 
-This is the next bounded research artifact for the question **what is the fastest practical civilian passenger airplane?** It translates the repository's separate evidence gates into a transparent comparison of six abstract speed classes:
+This is the next bounded research artifact for the question **what is the fastest practical civilian passenger airplane?** It translates the repository's separate evidence gates into a transparent comparison of seven abstract speed classes:
 
 - a current commercial reference near Mach 0.85;
-- current certified business-aviation references near Mach 0.925 and Mach 0.935;
+- current certified business-aviation references near Mach 0.925, Mach 0.935, and Mach 0.95;
 - the historical Mach 2 service anchor (sustained Concorde plus limited Tu-144 service); and
 - Mach 3 and Mach 5 conceptual comparison bins.
 
@@ -24,10 +24,10 @@ The screen is conjunctive: a class cannot receive a current `practical_pass` whi
 Running `python3 practicality_summary.py` yields:
 
 ```text
-speed_class_rows=6
+speed_class_rows=7
 current_practical_pass_rows=0
 current_baseline_not_ranked_rows=1
-current_business_reference_not_ranked_rows=2
+current_business_reference_not_ranked_rows=3
 historical_anchor_not_current_practical_pass_rows=1
 conceptual_unresolved_rows=2
 contradicted_gate_cells=1
@@ -38,7 +38,7 @@ classes_with_no_service_anchor=2
 The current evidence hierarchy is therefore:
 
 1. **Mach 0.85 reference:** a current-airline baseline, not a claim that it is the fastest practical class.
-2. **Mach 0.925 and Mach 0.935 references:** current certified business-aviation baselines, retained separately from airline capacity and not ranked as universal practical winners.
+2. **Mach 0.925, Mach 0.935, and Mach 0.95 references:** current certified business-aviation baselines, retained separately from airline capacity and not ranked as universal practical winners.
 3. **Mach 2:** the only class with direct historical passenger-service evidence (sustained Concorde and limited Tu-144 service), but not a current practicality pass because energy/climate is contradicted versus the selected modern benchmark and multiple gates remain unresolved or historically adverse.
 4. **Mach 3 and Mach 5:** conceptual bins with arithmetic time benefit but no passenger-service anchor and no complete evidence across thermal, noise, energy, economics, or airport compatibility.
 

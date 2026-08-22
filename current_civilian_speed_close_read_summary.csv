@@ -1,9 +1,9 @@
 metric,value
-current_civilian_speed_close_read_rows,3
+current_civilian_speed_close_read_rows,4
 current_airline_service_rows,1
-current_certified_business_aviation_rows,2
+current_certified_business_aviation_rows,3
 manufacturer_only_rows,0
-service_anchored_rows,3
-highest_published_subsonic_mach,0.935
-highest_service_anchored_mach,0.935
+service_anchored_rows,4
+highest_published_subsonic_mach,0.95
+highest_service_anchored_mach,0.95
 speed_frontier_pass_rows,0
