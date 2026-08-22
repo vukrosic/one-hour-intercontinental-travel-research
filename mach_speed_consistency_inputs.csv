@@ -1,0 +1,8 @@
+key,value,unit,source_id,role,limitation
+static_temperature_low,216.65,K,NASA_STANDARD_ATMOSPHERE,"lower bound of generic static-temperature sensitivity interval","Not an operating altitude or weather forecast"
+static_temperature_high,250.35,K,NASA_STANDARD_ATMOSPHERE,"upper bound of generic static-temperature sensitivity interval","Not an operating altitude or weather forecast"
+gamma_low,1.3,dimensionless,NASA_ISENTROPIC,"lower analytical gamma sensitivity","Not a validated high-temperature-air property"
+gamma_high,1.4,dimensionless,NASA_ISENTROPIC,"upper analytical gamma sensitivity","Not a validated high-temperature-air property"
+specific_gas_constant,287.05,J/(kg*K),NASA_ISENTROPIC,"ideal-air speed-of-sound constant","Calorically perfect air approximation"
+reference_distance_km,9492.6,km,INTERNAL_BENCHMARK,"common fixed-distance yardstick for derived acceleration sensitivity","Not a route recommendation or airport procedure"
+standard_gravity,9.80665,m/s^2,SI_CONSTANT,"unit conversion for acceleration fractions","Does not assert a passenger comfort threshold"

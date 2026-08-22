@@ -30,4 +30,4 @@ Run `python3 acceleration_sensitivity.py` to regenerate `acceleration_sensitivit
 - Passenger comfort, vibration, emergency cases, and certification are entirely outside scope.
 - The next safe check is an independent algebraic reproduction of this table before any interpretation is extended.
 
-The independent arithmetic reproduction is recorded in [ACCELERATION_INDEPENDENT_CHECK.md](ACCELERATION_INDEPENDENT_CHECK.md). The derived comparison of speed-only versus acceleration-adjusted time savings is in [ACCELERATION_ADJUSTED_TIME.md](ACCELERATION_ADJUSTED_TIME.md).
+The independent arithmetic reproduction is recorded in [ACCELERATION_INDEPENDENT_CHECK.md](ACCELERATION_INDEPENDENT_CHECK.md). The derived comparison of speed-only versus acceleration-adjusted time savings is in [ACCELERATION_ADJUSTED_TIME.md](ACCELERATION_ADJUSTED_TIME.md). The Mach-to-speed consistency audit is in [MACH_SPEED_CONSISTENCY.md](MACH_SPEED_CONSISTENCY.md).

@@ -184,6 +184,15 @@
 - Limitation: study-specific curves, pilot buffeting guidance, and recent subsonic air-taxi work cannot be promoted to a universal faster-aircraft serviceability limit.
 - Next hypothesis: seek a public study with a demonstrated high-speed passenger-context bridge; otherwise retain passenger comfort as unresolved.
 
+## 2026-08-22 — Phase 26: Mach-to-speed consistency audit
+
+- Added an ideal-air speed-of-sound audit connecting the existing Mach/temperature screen to the nominal km/h acceleration bins.
+- Result: all four nominal bins lie inside the derived intervals (870–971 km/h at Mach 0.85, 2,047–2,284 at Mach 2, 3,071–3,426 at Mach 3, and 5,118–5,709 at Mach 5).
+- Kinematic propagation result: at 0.05g the Mach 5 phase-distance fraction spans 43.4–54.0% of the fixed yardstick, versus 6.9–8.6% for Mach 2; all tested rows remain accelerate–cruise–decelerate.
+- Independent reproduction matches all 28 rows within `1e-12`; no practicality status changes follow.
+- Limitation: ideal speed of sound and phase fractions are bookkeeping sensitivities, not real-gas, aircraft-flow, passenger-comfort, or operating models.
+- Next hypothesis: use the consistent bins to compare any future public empirical evidence without mixing Mach and fixed-speed assumptions.
+
 ## 2026-08-22 — Phase 14: dated regulatory and noise-evidence refresh
 
 - Refreshed FAA, NASA Quesst, and EASA public pages and recorded four claims with separate current, prospective, research-in-progress, and general-requirement states.

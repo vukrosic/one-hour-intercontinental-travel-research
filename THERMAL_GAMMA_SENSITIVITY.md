@@ -58,3 +58,6 @@ absolute difference of `0` in the committed decimal representation.
 - No practicality status changes follow from this arithmetic result. Thermal,
   passenger, noise, energy, economics, and airport gates remain conjunctive
   evidence requirements.
+
+The related Mach-to-speed bookkeeping audit is in
+[MACH_SPEED_CONSISTENCY.md](MACH_SPEED_CONSISTENCY.md).
