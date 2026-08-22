@@ -73,3 +73,10 @@
 - Reproducibility gate: 27 unit tests pass, including explicit checks that Mach 2 energy/climate is contradicted versus the selected modern benchmark and that both faster conceptual bins lack a service anchor.
 - Limitation: the matrix inherits the evidence maturity and comparability limits of each underlying audit; it does not prove impossibility or rank designs.
 - Next hypothesis: an independently reproduced Mach 2 energy comparison is the highest-value next check before adding more speed bins.
+
+## 2026-08-22 — Phase 10: independent energy reproduction
+
+- Added a second implementation that re-reads the pinned energy inputs and compares all three load-factor rows with the committed output.
+- Result: all rows pass at an absolute tolerance of `1e-9`; the energy gate's arithmetic is independently reproduced.
+- Verification boundary: source accuracy, historical-versus-modern comparability, and all non-energy gates remain open.
+- Next hypothesis: independently reproduce the bounded thermal sensitivity before extending the speed envelope.

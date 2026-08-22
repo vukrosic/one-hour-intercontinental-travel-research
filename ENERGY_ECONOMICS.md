@@ -44,6 +44,10 @@ Historical NASA work independently described Concorde’s operating economics as
 
 The energy gate is **contradicted for historical Concorde relative to the selected modern long-haul benchmark**. The economics gate remains unresolved for any future speed class, although historical evidence is adverse. A faster class cannot be labeled practical without public evidence that closes the energy-intensity gap under realistic occupancy.
 
+## Verification checkpoint
+
+`energy_independent_check.py` independently re-derives the three load-factor rows without importing the primary implementation. It agrees with `energy_intensity_results.csv` within `1e-9` in the reported units. This is arithmetic verification only; it does not remove the source comparability limitations above. See [ENERGY_INDEPENDENT_CHECK.md](ENERGY_INDEPENDENT_CHECK.md).
+
 ## Next hypothesis
 
 The practical frontier may lie near the lowest supersonic speed that produces meaningful time savings while avoiding the steep energy penalty of the Mach 2 historical anchor. Testing that hypothesis requires empirical data from civil supersonic demonstrators or transparent commercial studies; an abstract propulsion or vehicle design would not resolve it.
